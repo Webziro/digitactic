@@ -24,6 +24,9 @@ if ($conn->connect_error) {
 ?>
 
 
+<!-- Live Host -->
+<?php
+// Database connection file
 
 
 

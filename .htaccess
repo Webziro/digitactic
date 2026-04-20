@@ -1,0 +1,28 @@
+RewriteEngine On
+
+# Redirect /index.php to /
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.php\ HTTP/
+RewriteRule ^index\.php$ / [R=301,L]
+
+# Redirect /admin_dashboard.php to /admin_dashboard
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /admin_dashboard\.php\ HTTP/
+RewriteRule ^admin_dashboard\.php$ /admin_dashboard [R=301,L]
+
+# Handle PHP files without extension
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php [L]
+
+# Redirect /dir/index.html to /dir
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /(.+)/index\.html\ HTTP/
+RewriteRule ^(.+)/index\.html$ /$1 [R=301,L]
+
+# Handle HTML files without extension (inside directories)
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.*)$ $1.html [L]
+
+# Specific handling for about, services, contact, team
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{DOCUMENT_ROOT}/$1/index.html -f
+RewriteRule ^(about|services|contact|team|works|portfolio/velora|portfolio/ancorli|portfolio/astra-vision|portfolio/boldly|portfolio/foochi|portfolio/fruitista|portfolio/luma-journal|portfolio/lumex)/?$ $1/index.html [L]

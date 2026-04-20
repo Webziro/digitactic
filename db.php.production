@@ -1,0 +1,24 @@
+<?php
+// live database connection configuration template
+// Copy this into your db.php file on the live server
+
+$host = 'localhost'; // Usually 'localhost' on shared hosting
+$db   = 'digiwfyi_digitact_digi'; // Update this
+$user = 'digiwfyi_digi'; // Update this
+$pass = 'Vg9t+pcU{)4(Gp]?'; // Update this
+
+$conn = mysqli_init();
+if (!$conn) {
+    die('mysqli_init failed');
+}
+
+// 2 second timeout to prevent page hangs
+mysqli_options($conn, MYSQLI_OPT_CONNECT_TIMEOUT, 2);
+
+@$conn->real_connect($host, $user, $pass, $db);
+
+if ($conn->connect_error) {
+    // Graceful error handling - index.php handles null $conn
+    $conn = null;
+}
+?>

@@ -43,3 +43,15 @@ $PHPMAILER_LANG['variable_set']         = '変数が存在しません: ';
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+

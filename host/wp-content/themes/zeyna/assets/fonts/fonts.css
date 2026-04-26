@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'General Sans';
+    src: url('GeneralSans-Light.woff2') format('woff2'),
+         url('GeneralSans-Light.woff') format('woff'),
+         url('GeneralSans-Light.ttf') format('truetype'),
+         url('GeneralSans-Light.eot'); /* IE9 ve öncesi */
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'General Sans';
+    src: url('GeneralSans-Regular.woff2') format('woff2'),
+         url('GeneralSans-Regular.woff') format('woff'),
+         url('GeneralSans-Regular.ttf') format('truetype'),
+         url('GeneralSans-Regular.eot'); /* IE9 ve öncesi */
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'General Sans';
+    src: url('GeneralSans-Medium.woff2') format('woff2'),
+         url('GeneralSans-Medium.woff') format('woff'),
+         url('GeneralSans-Medium.ttf') format('truetype'),
+         url('GeneralSans-Medium.eot'); /* IE9 ve öncesi */
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'General Sans';
+    src: url('GeneralSans-Bold.woff2') format('woff2'),
+         url('GeneralSans-Bold.woff') format('woff'),
+         url('GeneralSans-Bold.ttf') format('truetype'),
+         url('GeneralSans-Bold.eot'); /* IE9 ve öncesi */
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+

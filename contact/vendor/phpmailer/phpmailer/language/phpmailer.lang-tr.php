@@ -44,3 +44,15 @@ $PHPMAILER_LANG['variable_set']         = 'Değişken ayarlanamadı ya da sıfı
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+

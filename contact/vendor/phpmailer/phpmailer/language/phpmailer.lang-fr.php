@@ -42,3 +42,15 @@ $PHPMAILER_LANG['variable_set']         = 'Impossible d’initialiser ou de réi
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+

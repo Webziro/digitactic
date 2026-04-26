@@ -33,3 +33,15 @@ $PHPMAILER_LANG['variable_set']         = 'Non puidemos axustar ou reaxustar a v
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+

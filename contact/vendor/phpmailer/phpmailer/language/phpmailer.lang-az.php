@@ -33,3 +33,15 @@ $PHPMAILER_LANG['variable_set']         = 'Dəyişənin quraşdırılması uğur
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+

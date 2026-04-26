@@ -231,6 +231,7 @@ foreach ($sections as $key => $label) {
 <style>.site-branding, .site-logo, .site-logo a, .elementor-widget-pesitelogo { width: auto !important; max-width: none !important; min-width: max-content !important; overflow: visible !important; flex-shrink: 0 !important; } .site-branding .site-logo img, .site-branding .sticky-logo img, .main__logo { height: 75px !important; width: auto !important; max-width: none !important; max-height: none !important; object-fit: contain !important; }.pe--scroll--button i, .pe--scroll--button .pe--icon--caption { color: #000 !important; }
 .loader--caption { color: #000 !important; font-weight: bold !important; font-size: 15px !important; text-transform: uppercase !important; letter-spacing: 2px !important; }
 </style>
+<style id='loading-fix'>.responsive-hero-title .customized--word, .responsive-hero-title .elementor-repeater-item-806b59e, .customized--word { color: #D6A94E !important; } .responsive-hero-title .customized--word *, .customized--word * { color: #D6A94E !important; } h1, h2, h3, h4, h5, h6, .elementor-heading-title, p, a, span:not(.customized--word) { color: #fff !important; } .page--loader--block, .page--transition--block, .container--bg, .page--loader, .page--transitions { background-color: #e5d3a1 !important; }</style>
 </head>
 <body>
     <div class="sidebar">
@@ -398,6 +399,20 @@ foreach ($sections as $key => $label) {
     </div>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

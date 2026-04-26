@@ -34,3 +34,15 @@ $PHPMAILER_LANG['extension_missing']    = 'Fehlende Erweiterung: ';
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+

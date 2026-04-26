@@ -33,3 +33,15 @@ $PHPMAILER_LANG['extension_missing']    = 'Tillägg ej tillgängligt: ';
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+

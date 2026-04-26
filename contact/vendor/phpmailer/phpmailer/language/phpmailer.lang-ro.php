@@ -39,3 +39,15 @@ $PHPMAILER_LANG['variable_set']         = 'Nu se poate seta/reseta variabila. ';
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+

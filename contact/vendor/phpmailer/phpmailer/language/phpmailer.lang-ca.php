@@ -29,3 +29,4 @@ $PHPMAILER_LANG['variable_set']         = 'No s’ha pogut establir o restablir 
 
 
 
+

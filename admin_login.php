@@ -152,7 +152,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         }
     </style>
 
-<style>.site-branding, .site-logo, .site-logo a, .elementor-widget-pesitelogo { width: auto !important; max-width: none !important; min-width: max-content !important; overflow: visible !important; flex-shrink: 0 !important; } .site-branding .site-logo img, .site-branding .sticky-logo img, .main__logo { height: 75px !important; width: auto !important; max-width: none !important; max-height: none !important; object-fit: contain !important; }</style>
+<style>.site-branding, .site-logo, .site-logo a, .elementor-widget-pesitelogo { width: auto !important; max-width: none !important; min-width: max-content !important; overflow: visible !important; flex-shrink: 0 !important; } .site-branding .site-logo img, .site-branding .sticky-logo img, .main__logo { height: 75px !important; width: auto !important; max-width: none !important; max-height: none !important; object-fit: contain !important; }.pe--scroll--button i, .pe--scroll--button .pe--icon--caption { color: #000 !important; }
+</style>
 </head>
 <body>
     <div class="login-card">
@@ -177,6 +178,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     </div>
 </body>
 </html>
+
 
 
 

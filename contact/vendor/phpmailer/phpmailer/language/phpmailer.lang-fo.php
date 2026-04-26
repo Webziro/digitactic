@@ -29,3 +29,4 @@ $PHPMAILER_LANG['recipients_failed']    = 'SMTP Feilur: Fylgjandi móttakarar mi
 
 
 
+

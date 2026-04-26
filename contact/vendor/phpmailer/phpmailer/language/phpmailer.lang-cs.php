@@ -30,3 +30,4 @@ $PHPMAILER_LANG['extension_missing']    = 'Chybí rozšíření: ';
 
 
 
+

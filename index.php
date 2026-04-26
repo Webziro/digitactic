@@ -459,6 +459,7 @@ function get_content($key, $conn, $fallback = '')
   <link type="text/css" media="all"
     href="wp-content/cache/breeze-minification/12/css/breeze_zeyna-pethemes-com-creative-agency-12-15366-elementor-css-post-5471c34.css?ver=1772160162"
     rel="stylesheet" />
+<style>.site-branding, .site-logo, .site-logo a, .elementor-widget-pesitelogo { width: auto !important; max-width: none !important; min-width: max-content !important; overflow: visible !important; flex-shrink: 0 !important; } .site-branding .site-logo img, .site-branding .sticky-logo img, .main__logo { height: 75px !important; width: auto !important; max-width: none !important; max-height: none !important; object-fit: contain !important; }</style>
 </head>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-G8QKS6RS1E"></script>
 <script>window.dataLayer = window.dataLayer || [];
@@ -945,11 +946,9 @@ function get_content($key, $conn, $fallback = '')
             data-widget_type="peloadertransitionelement.default">
             <div class="elementor-widget-container">
               <div class="pe--lt--element element--logo">
-                <div class="loader--logo"><img fetchpriority="high" width="344" height="244"
-                    src="wp-content/uploads/sites/12/2025/11/digitactic_bg.png"
+                <div class="loader--logo"><img fetchpriority="high" src="wp-content/uploads/sites/12/2025/11/digitactic_bg.png"
                     class="attachment-full size-full wp-image-15359" alt="" decoding="async" /></div>
-                <div class="loader--logo loader--logo--clone"><img fetchpriority="high" width="344" height="244"
-                    src="wp-content/uploads/sites/12/2025/11/digitactic_bg.png"
+                <div class="loader--logo loader--logo--clone"><img fetchpriority="high" src="wp-content/uploads/sites/12/2025/11/digitactic_bg.png"
                     class="attachment-full size-full wp-image-15359" alt="" decoding="async" /></div>
               </div>
             </div>
@@ -2370,14 +2369,16 @@ pe--styled--object text--anim--inner"> <a data-cursor="true" data-cursor-type="d
       transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
       z-index: 10;
       line-height: 1;
+      padding: 0;
       padding-bottom: 2px; /* Visual alignment for &times; */
+      box-sizing: border-box;
     }
 
     .lead-popup-close:hover {
-      background: #ff5722;
-      border-color: #ff5722;
+      background: #a6a6a6;
+      border-color: #a6a6a6;
       transform: rotate(90deg) scale(1.1);
-      box-shadow: 0 0 15px rgba(255, 87, 34, 0.4);
+      box-shadow: 0 0 15px rgba(166, 166, 166, 0.4);
     }
 
     .lead-popup-inner h2 {
@@ -2410,24 +2411,24 @@ pe--styled--object text--anim--inner"> <a data-cursor="true" data-cursor-type="d
     }
 
     .lead-popup-inner input[type="email"]:focus {
-      border-color: #ff5722;
+      border-color: #a6a6a6;
     }
 
     .lead-popup-submit {
       width: 100%;
       padding: 15px;
-      background: #ff5722;
+      background: #a6a6a6;
       color: #fff;
       border: none;
-      border-radius: 6px;
+      border-radius: 2px;
       font-size: 16px;
       font-weight: 600;
       cursor: pointer;
-      transition: background 0.3s;
+      transition: background 0.3s, opacity 0.3s;
     }
 
     .lead-popup-submit:hover {
-      background: #e64a19;
+      background: #8c8c8c;
     }
 
     .lead-popup-submit:disabled {
@@ -2515,3 +2516,6 @@ pe--styled--object text--anim--inner"> <a data-cursor="true" data-cursor-type="d
 </body>
 
 </html>
+
+
+

@@ -1,4 +1,3 @@
-
 <!-- Local Host -->
 <?php
 // Database connection file
@@ -18,15 +17,6 @@ mysqli_options($conn, MYSQLI_OPT_CONNECT_TIMEOUT, 2);
 @$conn->real_connect($host, $user, $pass, $db);
 
 if ($conn->connect_error) {
-    // If database fails, we just don't set $conn (index.php handles this gracefully)
     $conn = null;
 }
 ?>
-
-
-<!-- Live Host -->
-<?php
-// Database connection file
-
-
-

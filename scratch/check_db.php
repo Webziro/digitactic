@@ -11,3 +11,7 @@ $result = $conn->query("SELECT count(*) as count FROM editable_content");
 $row = $result->fetch_assoc();
 echo "Total rows: " . $row['count'] . "\n";
 ?>
+
+
+
+

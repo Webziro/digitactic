@@ -5,3 +5,7 @@ while ($row = $result->fetch_assoc()) {
     echo "Key: " . $row['section_key'] . " | Value: " . $row['content'] . "\n";
 }
 ?>
+
+
+
+

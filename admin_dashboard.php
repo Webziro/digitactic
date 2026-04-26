@@ -229,6 +229,7 @@ foreach ($sections as $key => $label) {
     </style>
 
 <style>.site-branding, .site-logo, .site-logo a, .elementor-widget-pesitelogo { width: auto !important; max-width: none !important; min-width: max-content !important; overflow: visible !important; flex-shrink: 0 !important; } .site-branding .site-logo img, .site-branding .sticky-logo img, .main__logo { height: 75px !important; width: auto !important; max-width: none !important; max-height: none !important; object-fit: contain !important; }.pe--scroll--button i, .pe--scroll--button .pe--icon--caption { color: #000 !important; }
+.loader--caption { color: #000 !important; font-weight: bold !important; font-size: 15px !important; text-transform: uppercase !important; letter-spacing: 2px !important; }
 </style>
 </head>
 <body>
@@ -397,6 +398,8 @@ foreach ($sections as $key => $label) {
     </div>
 </body>
 </html>
+
+
 
 
 

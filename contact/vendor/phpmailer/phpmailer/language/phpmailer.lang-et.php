@@ -31,3 +31,6 @@ $PHPMAILER_LANG['extension_missing']    = 'Nõutud laiendus on puudu: ';
 
 
 
+
+
+

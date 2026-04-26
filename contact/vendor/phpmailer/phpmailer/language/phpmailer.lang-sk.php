@@ -33,3 +33,6 @@ $PHPMAILER_LANG['extension_missing']    = 'Chýba rozšírenie: ';
 
 
 
+
+
+

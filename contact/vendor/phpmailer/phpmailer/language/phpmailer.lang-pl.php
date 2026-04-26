@@ -36,3 +36,6 @@ $PHPMAILER_LANG['variable_set']         = 'Nie można ustawić lub zmodyfikować
 
 
 
+
+
+

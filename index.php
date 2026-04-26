@@ -460,6 +460,7 @@ function get_content($key, $conn, $fallback = '')
     href="wp-content/cache/breeze-minification/12/css/breeze_zeyna-pethemes-com-creative-agency-12-15366-elementor-css-post-5471c34.css?ver=1772160162"
     rel="stylesheet" />
 <style>.site-branding, .site-logo, .site-logo a, .elementor-widget-pesitelogo { width: auto !important; max-width: none !important; min-width: max-content !important; overflow: visible !important; flex-shrink: 0 !important; } .site-branding .site-logo img, .site-branding .sticky-logo img, .main__logo { height: 75px !important; width: auto !important; max-width: none !important; max-height: none !important; object-fit: contain !important; }.pe--scroll--button i, .pe--scroll--button .pe--icon--caption { color: #000 !important; }
+.loader--caption { color: #000 !important; font-weight: bold !important; font-size: 15px !important; text-transform: uppercase !important; letter-spacing: 2px !important; }
 </style>
 </head>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-G8QKS6RS1E"></script>
@@ -2517,6 +2518,8 @@ pe--styled--object text--anim--inner"> <a data-cursor="true" data-cursor-type="d
 </body>
 
 </html>
+
+
 
 
 

@@ -1513,6 +1513,68 @@ function get_content($key, $conn, $fallback = '')
                         future-driven
                       </p>
                     </div>
+
+                    <style>
+                    .who-we-work-cards {
+                        display: grid;
+                        grid-template-columns: repeat(3, 1fr);
+                        gap: 20px;
+                        margin-top: 50px;
+                        text-align: left;
+                        
+                        width: 90vw;
+                        max-width: 1200px;
+                        position: relative;
+                        left: 50%;
+                        transform: translateX(-50%);
+                    }
+                    .who-work-card {
+                        background: rgba(255, 255, 255, 0.03);
+                        border: 1px solid rgba(255, 255, 255, 0.08);
+                        padding: 30px;
+                        border-radius: 12px;
+                        transition: transform 0.3s ease, border-color 0.3s ease, background 0.3s ease;
+                    }
+                    .who-work-card:hover {
+                        transform: translateY(-5px);
+                        border-color: #D6A94E;
+                        background: rgba(255, 255, 255, 0.05);
+                    }
+                    .who-work-card h4 {
+                        color: #D6A94E !important;
+                        font-size: 18px !important;
+                        margin-bottom: 12px !important;
+                        font-weight: 600;
+                        line-height: 1.3;
+                    }
+                    .who-work-card p {
+                        color: #ccc !important;
+                        font-size: 15px !important;
+                        line-height: 1.6 !important;
+                        margin: 0 !important;
+                    }
+                    @media (max-width: 768px) {
+                        .who-we-work-cards {
+                            grid-template-columns: 1fr;
+                        }
+                    }
+                    </style>
+
+                    <div class="who-we-work-cards">
+                        <div class="who-work-card">
+                            <h4>Founders Building with Intention</h4>
+                            <p>You want to launch with clarity, not guesswork and build a strong, scalable foundation.</p>
+                        </div>
+                        <div class="who-work-card">
+                            <h4>Businesses Ready to Scale</h4>
+                            <p>You’ve outgrown your current setup and need better systems to support growth.</p>
+                        </div>
+                        <div class="who-work-card">
+                            <h4>Brands Refining Their Infrastructure</h4>
+                            <p>You’re optimizing performance, improving efficiency, and preparing for your next level.</p>
+                        </div>
+                    </div>
+
                   </div>
                 </div>
               </div>

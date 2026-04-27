@@ -387,7 +387,7 @@ function get_content($key, $conn, $fallback = '')
   <link rel="alternate" title="JSON" type="application/json" href="wp-json/wp/v2/pages/15366.json" />
   <link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc0db0.html?rsd" />
   <meta name="generator" content="WordPress 6.8.3" />
-  <link rel="canonical" href="./" />
+  <link rel="canonical" href="/" />
   <link rel='shortlink' href='./' />
   <link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed"
     href="wp-json/oembed/1.0/embed4c3a.json?url=https%3A%2F%2Fzeyna.pethemes.com%2Fcreative-agency%2F" />
@@ -979,9 +979,9 @@ function get_content($key, $conn, $fallback = '')
               data-id="1846483a" data-element_type="widget" data-e-type="widget" data-widget_type="pesitelogo.default">
               <div class="elementor-widget-container">
                 <div class="site-branding pe--styled--object align-left">
-                  <div class="site-logo"><a href="./" data-barba-prevent="all"><img src="wp-content/uploads/sites/12/2025/11/digitactic_bg.png"
+                  <div class="site-logo"><a href="/" data-barba-prevent="all"><img src="wp-content/uploads/sites/12/2025/11/digitactic_bg.png"
                         class="main__logo" alt="" decoding="async" /> </a></div>
-                  <div class="sticky-logo"><a href="./" data-barba-prevent="all"> </a></div> 
+                  <div class="sticky-logo"><a href="/" data-barba-prevent="all"> </a></div> 
                 </div>
               </div>
             </div>
@@ -999,25 +999,25 @@ function get_content($key, $conn, $fallback = '')
                   <ul id="menu-menu-2" class="menu main-menu menu--horizontal ">
                     <li
                       class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-15366 current_page_item menu-item-15383">
-                      <a href="./" data-barba-prevent="all" aria-current="page" class="pe--styled--object  text--anim--inner menu--link">Home</a>
+                      <a href="/" data-barba-prevent="all" aria-current="page" class="pe--styled--object  text--anim--inner menu--link">Home</a>
                     </li>
                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15388"><a
-                        href="works/" class="pe--styled--object  text--anim--inner menu--link">Works</a></li>
+                        href="/works/" class="pe--styled--object  text--anim--inner menu--link">Works</a></li>
                     <li
                       class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-15389">
                       <a href="#." class="pe--styled--object  text--anim--inner menu--link">Studio</a>
                       <ul class="sub-menu">
                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15384"><a
-                            href="about/" class="pe--styled--object  text--anim--inner menu--link">About</a>
+                            href="/about/" class="pe--styled--object  text--anim--inner menu--link">About</a>
                         </li>
                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15386"><a
-                            href="services/"
+                            href="/services/"
                             class="pe--styled--object  text--anim--inner menu--link">Services</a></li>
 
 
 
                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15385"><a
-                            href="contact/"
+                            href="/contact/"
                             class="pe--styled--object  text--anim--inner menu--link">Contact</a></li>
                       </ul>
                     </li>
@@ -1040,18 +1040,18 @@ function get_content($key, $conn, $fallback = '')
                   <ul id="menu-mobile-menu-1" class="menu main-menu menu--toggled ">
                     <li
                       class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-15366 current_page_item menu-item-15397">
-                      <a href="./" data-barba-prevent="all" aria-current="page" class="pe--styled--object  text--anim--inner menu--link">Home</a>
+                      <a href="/" data-barba-prevent="all" aria-current="page" class="pe--styled--object  text--anim--inner menu--link">Home</a>
                     </li>
                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15392"><a
-                        href="works/" class="pe--styled--object  text--anim--inner menu--link">Works</a></li>
+                        href="/works/" class="pe--styled--object  text--anim--inner menu--link">Works</a></li>
                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15396"><a
-                        href="about/" class="pe--styled--object  text--anim--inner menu--link">About</a></li>
+                        href="/about/" class="pe--styled--object  text--anim--inner menu--link">About</a></li>
                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15394"><a
-                        href="services/" class="pe--styled--object  text--anim--inner menu--link">Services</a>
+                        href="/services/" class="pe--styled--object  text--anim--inner menu--link">Services</a>
                     </li>
 
                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15395"><a
-                        href="contact/" class="pe--styled--object  text--anim--inner menu--link">Contact</a>
+                        href="/contact/" class="pe--styled--object  text--anim--inner menu--link">Contact</a>
                     </li>
                   </ul>
                 </nav>
@@ -1079,7 +1079,7 @@ function get_content($key, $conn, $fallback = '')
               <div class="elementor-widget-container">
                 <div class="pe--button   button--bordered hover--custom button-- " data-text-hover="none"
                   data-background-hover="slide-up" data-icon-hover="none">
-                  <div class="pe--button--wrapper"><a class="pb--handle" href="contact/" data-cursor="true"
+                  <div class="pe--button--wrapper"><a class="pb--handle" href="/contact/" data-cursor="true"
                       data-cursor-type="hidden" data-cursor-text="" data-cursor-icon=""> <span
                         class="pe--button--text pe--styled--object"> LET'S TALK </span> </a></div>
                 </div>
@@ -1283,7 +1283,7 @@ function get_content($key, $conn, $fallback = '')
                 <div class="elementor-widget-container">
                   <div class="pe--button   button--bordered hover--custom button-- " data-text-hover="none"
                     data-background-hover="slide-up" data-icon-hover="none">
-                    <div class="pe--button--wrapper"><a class="pb--handle" href="about" data-cursor="true"
+                    <div class="pe--button--wrapper"><a class="pb--handle" href="/about/" data-cursor="true"
                         data-cursor-type="hidden" data-cursor-text="" data-cursor-icon=""> <span
                           class="pe--button--text pe--styled--object"> ABOUT US </span> </a></div>
                   </div>
@@ -1423,7 +1423,7 @@ function get_content($key, $conn, $fallback = '')
                     <div class="elementor-widget-container">
                       <div class="pe--button   button--bordered hover--custom button-- " data-text-hover="none"
                         data-background-hover="slide-up" data-icon-hover="none">
-                        <div class="pe--button--wrapper"><a class="pb--handle" href="works/" data-cursor="true"
+                        <div class="pe--button--wrapper"><a class="pb--handle" href="/works/" data-cursor="true"
                             data-cursor-type="hidden" data-cursor-text="" data-cursor-icon=""> <span
                               class="pe--button--text pe--styled--object"> VIEW ALL OUR WORK </span> </a></div>
                       </div>
@@ -1548,7 +1548,7 @@ function get_content($key, $conn, $fallback = '')
                   <div class="elementor-widget-container">
                     <div class="pe--call--to--action pe--hover--trigger pe--styled--object to-page-post"> <a
                         data-cursor="true" data-cursor-type="default" data-cursor-text="" data-cursor-icon=""
-                        href="services/">
+                        href="/services/">
                         <div class="pe--cta--wrapper ">
                           <div data-image-hover=""
                             class="cta--element pe--styled--object element--title elementor-repeater-item-ff8ac83  ">
@@ -1802,7 +1802,7 @@ function get_content($key, $conn, $fallback = '')
                   <div class="elementor-widget-container">
                     <div class="pe--button   button--bordered hover--custom button-- " data-text-hover="none"
                       data-background-hover="slide-up" data-icon-hover="none">
-                      <div class="pe--button--wrapper"><a class="pb--handle" href="services/" data-cursor="true"
+                      <div class="pe--button--wrapper"><a class="pb--handle" href="/services/" data-cursor="true"
                           data-cursor-type="hidden" data-cursor-text="" data-cursor-icon=""> <span
                             class="pe--button--text pe--styled--object"> OUR SERVICES </span> </a></div>
                     </div>
@@ -1860,7 +1860,7 @@ function get_content($key, $conn, $fallback = '')
                   <div class="elementor-widget-container">
                     <div class="pe--button   button--bordered hover--custom button-- " data-text-hover="none"
                       data-background-hover="slide-up" data-icon-hover="none">
-                      <div class="pe--button--wrapper"><a class="pb--handle" href="team/" data-cursor="true"
+                      <div class="pe--button--wrapper"><a class="pb--handle" href="/team/" data-cursor="true"
                           data-cursor-type="hidden" data-cursor-text="" data-cursor-icon=""> <span
                             class="pe--button--text pe--styled--object"> OUR TEAM </span> </a></div>
                     </div>
@@ -2140,20 +2140,20 @@ function get_content($key, $conn, $fallback = '')
                     <ul id="menu-mobile-menu-3" class="menu main-menu menu--vertical ">
                       <li
                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-15366 current_page_item menu-item-15397">
-                        <a href="./" data-barba-prevent="all" aria-current="page"
+                        <a href="/" data-barba-prevent="all" aria-current="page"
                           class="pe--styled--object  text--anim--inner menu--link">Home</a>
                       </li>
                       <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15392"><a
-                          href="works/" class="pe--styled--object  text--anim--inner menu--link">Works</a>
+                          href="/works/" class="pe--styled--object  text--anim--inner menu--link">Works</a>
                       </li>
                       <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15396"><a
-                          href="about/" class="pe--styled--object  text--anim--inner menu--link">About</a>
+                          href="/about/" class="pe--styled--object  text--anim--inner menu--link">About</a>
                       </li>
                       <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15394"><a
-                          href="services/" class="pe--styled--object  text--anim--inner menu--link">Services</a></li>
+                          href="/services/" class="pe--styled--object  text--anim--inner menu--link">Services</a></li>
 
                       <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15395"><a
-                          href="contact/" class="pe--styled--object  text--anim--inner menu--link">Contact</a>
+                          href="/contact/" class="pe--styled--object  text--anim--inner menu--link">Contact</a>
                       </li>
                     </ul>
                   </nav>

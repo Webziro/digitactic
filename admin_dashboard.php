@@ -237,7 +237,7 @@ foreach ($sections as $key => $label) {
     <div class="sidebar">
         <div class="sidebar-brand">DIGITATIC</div>
         <a href="#" class="nav-item active"><i class="material-icons">dashboard</i> Content Manager</a>
-        <a href="./" target="_blank" class="nav-item"><i class="material-icons">visibility</i> View Site</a>
+        <a href="/" target="_blank" class="nav-item"><i class="material-icons">visibility</i> View Site</a>
         <a href="logout.php" class="nav-item logout-btn"><i class="material-icons">logout</i> Logout</a>
     </div>
 
@@ -248,7 +248,7 @@ foreach ($sections as $key => $label) {
                 <p style="color: #666; margin-top: 4px;">Update your website content in real-time.</p>
             </div>
             <div class="actions">
-                <a href="./" target="_blank" class="btn-action btn-view">
+                <a href="/" target="_blank" class="btn-action btn-view">
                     <i class="material-icons">launch</i> Live Preview
                 </a>
             </div>

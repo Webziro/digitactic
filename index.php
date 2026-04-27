@@ -2647,6 +2647,117 @@ function get_content($key, $conn, $fallback = '')
       </article>
     </main>
 
+    <!-- Final CTA Section -->
+    <section id="final-cta" class="final-cta-section">
+        <div class="cta-content">
+            <h2 class="cta-headline">Let’s Build a System That Actually Works</h2>
+            <p class="cta-subtext">Tell us where you are and where you want to go. We’ll help you bridge the gap.</p>
+            <div class="cta-button-wrap">
+                <a href="/contact/" class="cta-btn-main">
+                    <span>Start a Conversation</span>
+                    <i class="material-icons">chat_bubble_outline</i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <style>
+    .final-cta-section {
+        padding: 140px 0;
+        background: linear-gradient(180deg, #000 0%, #0a0a0a 100%);
+        text-align: center;
+        position: relative;
+        overflow: hidden;
+        z-index: 10;
+    }
+
+    .final-cta-section::before {
+        content: '';
+        position: absolute;
+        top: -50%;
+        left: -50%;
+        width: 200%;
+        height: 200%;
+        background: radial-gradient(circle, rgba(214, 169, 78, 0.05) 0%, transparent 70%);
+        pointer-events: none;
+    }
+
+    .cta-content {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 0 20px;
+        position: relative;
+        z-index: 1;
+    }
+
+    .cta-headline {
+        font-size: 72px;
+        font-weight: 800;
+        color: #fff;
+        margin-bottom: 25px;
+        letter-spacing: -3px;
+        line-height: 1.1;
+        font-family: 'Outfit', sans-serif;
+    }
+
+    .cta-subtext {
+        font-size: 24px;
+        color: #b0b0b0;
+        margin-bottom: 50px;
+        font-weight: 300;
+        max-width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .cta-btn-main {
+        display: inline-flex;
+        align-items: center;
+        background: transparent;
+        color: #D6A94E !important;
+        border: 2px solid #D6A94E;
+        padding: 24px 60px;
+        border-radius: 100px;
+        font-weight: 700;
+        font-size: 20px;
+        text-decoration: none !important;
+        transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+
+    .cta-btn-main:hover {
+        background: #D6A94E;
+        color: #000 !important;
+        transform: scale(1.05);
+        box-shadow: 0 20px 40px rgba(214, 169, 78, 0.3);
+    }
+
+    .cta-btn-main i {
+        margin-left: 15px;
+        font-size: 24px;
+    }
+
+    @media (max-width: 768px) {
+        .cta-headline {
+            font-size: 42px;
+            letter-spacing: -1px;
+        }
+        .cta-subtext {
+            font-size: 18px;
+        }
+        .final-cta-section {
+            padding: 100px 0;
+        }
+        .cta-btn-main {
+            padding: 20px 40px;
+            font-size: 16px;
+            width: 100%;
+            justify-content: center;
+        }
+    }
+    </style>
+
     <footer id="colophon" class="site-footer  footer--overlay">
       <div data-elementor-type="pe-footer" data-elementor-id="547" class="elementor elementor-547">
         <div class="elementor-element elementor-element-410c50ab e-con-full e-flex no e-con e-parent" data-id="410c50ab"

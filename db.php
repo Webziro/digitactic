@@ -1,21 +1,24 @@
 <?php
 /**
  * Database connection file
- * Switch between Local and Live hosting by commenting/uncommenting the sections below.
+ * Auto-detects Local vs Live environment — no manual switching needed.
  */
 
-/* --- LOCAL HOST (XAMPP) --- 
-$host = '127.0.0.1';
-$db   = 'digitatic_db'; 
-$user = 'root'; 
-$pass = '';
-*/
+$isLive = isset($_SERVER['HTTP_HOST']) && strpos($_SERVER['HTTP_HOST'], 'digitactic.net') !== false;
 
-/* --- LIVE HOST (PRODUCTION) --- */
-$host = 'localhost'; 
-$db   = 'digiwfyi_digitact_digi'; 
-$user = 'digiwfyi_digi'; 
-$pass = 'Vg9t+pcU{)4(Gp]?'; 
+if ($isLive) {
+    /* --- LIVE HOST (PRODUCTION) --- */
+    $host = 'localhost';
+    $db   = 'digiwfyi_digitact_digi';
+    $user = 'digiwfyi_digi';
+    $pass = 'Vg9t+pcU{)4(Gp]?';
+} else {
+    /* --- LOCAL HOST (XAMPP) --- */
+    $host = '127.0.0.1';
+    $db   = 'digitatic_db';
+    $user = 'root';
+    $pass = '';
+}
 
 $conn = mysqli_init();
 if (!$conn) {
@@ -29,10 +32,9 @@ mysqli_options($conn, MYSQLI_OPT_CONNECT_TIMEOUT, 2);
 @$conn->real_connect($host, $user, $pass, $db);
 
 if ($conn->connect_error) {
-    // If connection fails, set $conn to null so index.php knows to handle it gracefully
+    // If connection fails, set $conn to null so index.php handles it gracefully
     $conn = null;
 }
-?>
 
 
 

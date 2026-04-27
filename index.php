@@ -1886,13 +1886,136 @@ function get_content($key, $conn, $fallback = '')
                       data-background-hover="slide-up" data-icon-hover="none">
                       <div class="pe--button--wrapper"><a class="pb--handle" href="/services/" data-cursor="true"
                           data-cursor-type="hidden" data-cursor-text="" data-cursor-icon=""> <span
-                            class="pe--button--text pe--styled--object"> OUR SERVICES </span> </a></div>
+                            class="pe--button--text pe--styled--object"> EXPLORE OUR SERVICES </span> </a></div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="elementor-element elementor-element-418cb892 e-con-full e-flex no e-con e-parent"
+
+            <!-- Why choose us section -->
+            <section id="why-digitactic" class="why-digitactic-section">
+                <div class="why-header">
+                    <p class="section-subheading" style="font-size: 14px !important; color: #D6A94E !important; text-transform: uppercase !important; margin-bottom: 20px; letter-spacing: 2px;">Value Proposition</p>
+                    <h2 class="section-title">Why Digitactic</h2>
+                </div>
+                <div class="why-grid">
+                    <div class="why-item">
+                        <div class="why-icon">01</div>
+                        <h3>We Build Systems, Not Just Assets</h3>
+                        <p>Most agencies deliver outputs. We design connected systems that actually support growth.</p>
+                    </div>
+                    <div class="why-item">
+                        <div class="why-icon">02</div>
+                        <h3>Clarity Over Complexity</h3>
+                        <p>We simplify your digital ecosystem. So everything works together, not against you.</p>
+                    </div>
+                    <div class="why-item">
+                        <div class="why-icon">03</div>
+                        <h3>Focused, Boutique Approach</h3>
+                        <p>We take on a limited number of clients to ensure depth, quality, and attention.</p>
+                    </div>
+                    <div class="why-item">
+                        <div class="why-icon">04</div>
+                        <h3>Designed for Long-Term Scale</h3>
+                        <p>Every system we build is structured to evolve with your business.</p>
+                    </div>
+                </div>
+            </section>
+
+            <style>
+            .why-digitactic-section {
+                padding: 100px 0;
+                width: 90vw;
+                max-width: 1200px;
+                margin: 0 auto;
+                position: relative;
+            }
+
+            .why-header {
+                text-align: center;
+                margin-bottom: 60px;
+            }
+
+            .why-header .section-title {
+                font-size: 54px;
+                color: #fff;
+                font-weight: 700;
+                letter-spacing: -1px;
+            }
+
+            .why-grid {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                gap: 30px;
+            }
+
+            .why-item {
+                background: rgba(255, 255, 255, 0.02);
+                border: 1px solid rgba(255, 255, 255, 0.05);
+                padding: 50px 40px;
+                border-radius: 24px;
+                transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+                position: relative;
+                overflow: hidden;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+
+            .why-item:hover {
+                background: rgba(255, 255, 255, 0.04);
+                border-color: #D6A94E;
+                transform: translateY(-10px);
+                box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+            }
+
+            .why-icon {
+                font-size: 60px;
+                font-weight: 900;
+                color: rgba(214, 169, 78, 0.03);
+                position: absolute;
+                top: 10px;
+                right: 20px;
+                transition: all 0.5s ease;
+                font-family: 'Outfit', sans-serif;
+            }
+
+            .why-item:hover .why-icon {
+                color: rgba(214, 169, 78, 0.15);
+                transform: scale(1.1) translateY(10px);
+            }
+
+            .why-item h3 {
+                font-size: 26px !important;
+                color: #D6A94E !important;
+                margin-bottom: 18px !important;
+                font-weight: 600;
+                position: relative;
+                z-index: 1;
+            }
+
+            .why-item p {
+                font-size: 17px !important;
+                color: #b0b0b0 !important;
+                line-height: 1.7 !important;
+                margin: 0 !important;
+                position: relative;
+                z-index: 1;
+            }
+
+            @media (max-width: 991px) {
+                .why-grid {
+                    grid-template-columns: 1fr;
+                }
+                .why-header .section-title {
+                    font-size: 42px;
+                }
+                .why-item {
+                    padding: 40px 30px;
+                }
+            }
+            </style>            <div class="elementor-element elementor-element-418cb892 e-con-full e-flex no e-con e-parent"
               data-id="418cb892" data-element_type="container" data-e-type="container" id="impact">
               <div class="elementor-element elementor-element-44f451cb e-con-full e-flex no e-con e-child"
                 data-id="44f451cb" data-element_type="container" data-e-type="container">
@@ -1902,7 +2025,7 @@ function get_content($key, $conn, $fallback = '')
                   data-widget_type="petextwrapper.default">
                   <div class="elementor-widget-container">
                     <div class="text-wrapper pe--styled--object">
-                      <p class="no-margin   " style="font-size: 14px !important; color: #D6A94E !important; text-transform: uppercase !important;">WHAT WE DO</p>
+                      <p class="no-margin   " style="font-size: 14px !important; color: #D6A94E !important; text-transform: uppercase !important;">OUR IMPACT IN NUMBERS</p>
                     </div>
                   </div>
                 </div>

@@ -2015,7 +2015,194 @@ function get_content($key, $conn, $fallback = '')
                     padding: 40px 30px;
                 }
             }
-            </style>            <div class="elementor-element elementor-element-418cb892 e-con-full e-flex no e-con e-parent"
+            </style>
+            
+            <!-- How We Work Roadmap Section -->
+            <section id="how-we-work" class="how-we-work-section">
+                <div class="work-header">
+                    <p class="section-subheading" style="font-size: 14px !important; color: #D6A94E !important; text-transform: uppercase !important; margin-bottom: 20px; letter-spacing: 2px;">Our Process</p>
+                    <h2 class="section-title">How We Work</h2>
+                </div>
+                
+                <div class="roadmap-container">
+                    <div class="roadmap-line"></div>
+                    
+                    <div class="roadmap-item">
+                        <div class="roadmap-dot">01</div>
+                        <div class="roadmap-content">
+                            <h3>Discovery</h3>
+                            <p>We identify gaps, inefficiencies, and opportunities within your current setup.</p>
+                        </div>
+                    </div>
+
+                    <div class="roadmap-item">
+                        <div class="roadmap-dot">02</div>
+                        <div class="roadmap-content">
+                            <h3>Strategy</h3>
+                            <p>We define a clear system architecture aligned with your business goals.</p>
+                        </div>
+                    </div>
+
+                    <div class="roadmap-item">
+                        <div class="roadmap-dot">03</div>
+                        <div class="roadmap-content">
+                            <h3>Build</h3>
+                            <p>We design and develop your full digital infrastructure.</p>
+                        </div>
+                    </div>
+
+                    <div class="roadmap-item">
+                        <div class="roadmap-dot">04</div>
+                        <div class="roadmap-content">
+                            <h3>Launch</h3>
+                            <p>We implement with precision ensuring everything works seamlessly.</p>
+                        </div>
+                    </div>
+
+                    <div class="roadmap-item">
+                        <div class="roadmap-dot">05</div>
+                        <div class="roadmap-content">
+                            <h3>Optimize</h3>
+                            <p>We refine, improve, and support long-term performance.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <style>
+            .how-we-work-section {
+                padding: 100px 0;
+                width: 90vw;
+                max-width: 1000px;
+                margin: 0 auto;
+                color: #fff;
+                position: relative;
+                z-index: 10;
+            }
+
+            .work-header {
+                text-align: center;
+                margin-bottom: 80px;
+            }
+
+            .work-header .section-title {
+                font-size: 54px;
+                font-weight: 700;
+                letter-spacing: -1px;
+            }
+
+            .roadmap-container {
+                position: relative;
+                padding-left: 80px;
+            }
+
+            .roadmap-line {
+                position: absolute;
+                left: 19px;
+                top: 0;
+                bottom: 0;
+                width: 2px;
+                background: linear-gradient(to bottom, transparent, #D6A94E, transparent);
+            }
+
+            .roadmap-item {
+                position: relative;
+                margin-bottom: 60px;
+                opacity: 0;
+                transform: translateX(30px);
+                transition: all 0.8s ease-out;
+            }
+
+            .roadmap-item.is-visible {
+                opacity: 1;
+                transform: translateX(0);
+            }
+
+            .roadmap-dot {
+                position: absolute;
+                left: -80px;
+                width: 40px;
+                height: 40px;
+                background: #000;
+                border: 2px solid #D6A94E;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-weight: 700;
+                color: #D6A94E;
+                z-index: 2;
+                box-shadow: 0 0 15px rgba(214, 169, 78, 0.3);
+                font-family: 'Outfit', sans-serif;
+            }
+
+            .roadmap-content {
+                background: rgba(255, 255, 255, 0.02);
+                border: 1px solid rgba(255, 255, 255, 0.05);
+                padding: 40px;
+                border-radius: 20px;
+                transition: all 0.4s ease;
+            }
+
+            .roadmap-content:hover {
+                background: rgba(255, 255, 255, 0.04);
+                border-color: rgba(214, 169, 78, 0.5);
+                transform: scale(1.02);
+            }
+
+            .roadmap-content h3 {
+                color: #D6A94E !important;
+                font-size: 26px !important;
+                margin-bottom: 12px !important;
+                font-weight: 600;
+            }
+
+            .roadmap-content p {
+                color: #b0b0b0 !important;
+                font-size: 17px !important;
+                line-height: 1.6 !important;
+                margin: 0 !important;
+            }
+
+            @media (max-width: 768px) {
+                .roadmap-container {
+                    padding-left: 60px;
+                }
+                .roadmap-line {
+                    left: 19px;
+                }
+                .roadmap-dot {
+                    left: -60px;
+                    width: 35px;
+                    height: 35px;
+                    font-size: 14px;
+                }
+                .work-header .section-title {
+                    font-size: 38px;
+                }
+            }
+            </style>
+
+            <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                const observerOptions = {
+                    threshold: 0.1
+                };
+
+                const observer = new IntersectionObserver((entries) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            entry.target.classList.add('is-visible');
+                        }
+                    });
+                }, observerOptions);
+
+                document.querySelectorAll('.roadmap-item').forEach(item => {
+                    observer.observe(item);
+                });
+            });
+            </script>
+            <div class="elementor-element elementor-element-418cb892 e-con-full e-flex no e-con e-parent"
               data-id="418cb892" data-element_type="container" data-e-type="container" id="impact">
               <div class="elementor-element elementor-element-44f451cb e-con-full e-flex no e-con e-child"
                 data-id="44f451cb" data-element_type="container" data-e-type="container">

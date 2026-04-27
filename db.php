@@ -4,18 +4,18 @@
  * Switch between Local and Live hosting by commenting/uncommenting the sections below.
  */
 
-/* --- LOCAL HOST (XAMPP) --- */
+/* --- LOCAL HOST (XAMPP) --- 
 $host = '127.0.0.1';
 $db   = 'digitatic_db'; 
 $user = 'root'; 
 $pass = '';
+*/
 
-/* --- LIVE HOST (PRODUCTION) --- 
+/* --- LIVE HOST (PRODUCTION) --- */
 $host = 'localhost'; 
 $db   = 'digiwfyi_digitact_digi'; 
 $user = 'digiwfyi_digi'; 
 $pass = 'Vg9t+pcU{)4(Gp]?'; 
-*/
 
 $conn = mysqli_init();
 if (!$conn) {

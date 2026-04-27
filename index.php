@@ -1261,7 +1261,7 @@ function get_content($key, $conn, $fallback = '')
                 data-widget_type="petextwrapper.default">
                 <div class="elementor-widget-container">
                   <div class="text-wrapper pe--styled--object">
-                    <p class="no-margin   ">Who we are?</p>
+                    <p class="no-margin   " style="font-size: 14px !important; color: #D6A94E !important; text-transform: uppercase !important;">Who we are?</p>
                   </div>
                 </div>
               </div>
@@ -1498,8 +1498,15 @@ function get_content($key, $conn, $fallback = '')
                   data-id="3e636a92" data-element_type="widget" data-e-type="widget"
                   data-widget_type="petextwrapper.default">
                   <div class="elementor-widget-container">
+
+                  <div class="elementor-widget-container">
                     <div class="text-wrapper pe--styled--object">
-                      <p class="no-margin   "><span
+                      <p class="no-margin   " style="font-size: 14px !important; color: #D6A94E !important; text-transform: uppercase !important; padding-bottom: 12px !important;">WHO WE WORK WITH</p>
+                    </div>
+                  </div>
+                    <div class="text-wrapper pe--styled--object">
+                      <p class="no-margin   ">
+                        <span
                           class="no-underline  inner--element customized--word elementor-repeater-item-b638ee2"> </span>
                         We don't take on every client. We work with a limited number of entrepreneurs, creators, and business owners who are ready to
                         build something exceptional - not just functional, but
@@ -1535,7 +1542,7 @@ function get_content($key, $conn, $fallback = '')
                   data-widget_type="petextwrapper.default">
                   <div class="elementor-widget-container">
                     <div class="text-wrapper pe--styled--object">
-                      <p class="no-margin   ">WHAT WE BUILD ?</p>
+                      <p class="no-margin   " style="font-size: 14px !important; color: #D6A94E !important; text-transform: uppercase !important;">WHAT WE BUILD ?</p>
                     </div>
                   </div>
                 </div>
@@ -1790,7 +1797,7 @@ function get_content($key, $conn, $fallback = '')
 
                         <span
                           class="no-underline  inner--element customized--word elementor-repeater-item-b638ee2">
-                          Explore Our Capabilities </span>
+                           </span>
                         <span
                           class="no-underline  inner--element customized--word elementor-repeater-item-b638ee2"> 
                         </span>Since inception, we’ve been using creativity to help shape and grow some of the world’s most ambitious brands.
@@ -1822,7 +1829,7 @@ function get_content($key, $conn, $fallback = '')
                   data-widget_type="petextwrapper.default">
                   <div class="elementor-widget-container">
                     <div class="text-wrapper pe--styled--object">
-                      <p class="no-margin   ">What we do?</p>
+                      <p class="no-margin   " style="font-size: 14px !important; color: #D6A94E !important; text-transform: uppercase !important;">WHAT WE DO</p>
                     </div>
                   </div>
                 </div>

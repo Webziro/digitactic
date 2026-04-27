@@ -2651,7 +2651,8 @@ function get_content($key, $conn, $fallback = '')
     <section id="final-cta" class="final-cta-section">
         <div class="cta-content">
             <h2 class="cta-headline">Let’s Build a System That Actually Works</h2>
-            <p class="cta-subtext">Tell us where you are and where you want to go. We’ll help you bridge the gap.</p>
+            <p class="cta-subtext">Tell us where you are and where you want to go. 
+              <br> We’ll help you bridge the gap.</p>
             <div class="cta-button-wrap">
                 <a href="/contact/" class="cta-btn-main">
                     <span>Start a Conversation</span>

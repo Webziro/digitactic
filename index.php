@@ -42,9 +42,9 @@ function get_content($key, $conn, $fallback = '')
   </style>
   <link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
   <link rel='preconnect' href='https://fonts.gstatic.com/' crossorigin />
-  <link rel="alternate" type="application/rss+xml" title="Creative Agency &raquo; Feed" href="feed/index.html" />
+  <link rel="alternate" type="application/rss+xml" title="Creative Agency &raquo; Feed" href="feed/" />
   <link rel="alternate" type="application/rss+xml" title="Creative Agency &raquo; Comments Feed"
-    href="comments/feed/index.html" />
+    href="comments/feed/" />
   <style id='global-styles-inline-css'>
     :root {
       --wp--preset--aspect-ratio--square: 1;
@@ -383,12 +383,12 @@ function get_content($key, $conn, $fallback = '')
   <link rel='stylesheet' id='elementor-gf-robotoslab-css'
     href='https://fonts.googleapis.com/css?family=Roboto+Slab:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&amp;display=auto'
     media='all' />
-  <link rel="https://api.w.org/" href="wp-json/index.html" />
+  <link rel="https://api.w.org/" href="wp-json/" />
   <link rel="alternate" title="JSON" type="application/json" href="wp-json/wp/v2/pages/15366.json" />
   <link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc0db0.html?rsd" />
   <meta name="generator" content="WordPress 6.8.3" />
-  <link rel="canonical" href="index.html" />
-  <link rel='shortlink' href='index.html' />
+  <link rel="canonical" href="./" />
+  <link rel='shortlink' href='./' />
   <link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed"
     href="wp-json/oembed/1.0/embed4c3a.json?url=https%3A%2F%2Fzeyna.pethemes.com%2Fcreative-agency%2F" />
   <link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed"

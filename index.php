@@ -1222,7 +1222,8 @@ function get_content($key, $conn, $fallback = '')
                             class="no-underline  inner--element customized--word elementor-repeater-item-b638ee2">
                             <?= get_content('hero_sub_part1', $conn, ''); ?>
                           </span>
-                          <?= get_content('hero_sub_part2', $conn, 'Engineering premium digital infrastructure for the world’s most ambitious Entrepreneurs and Creators.'); ?>
+                          <?= get_content('hero_sub_part2', $conn, "Engineering premium digital infrastructure for the 
+                          world's ambitious entrepreneurs and creators."); ?>
                         </p>
                       </div>
                     </div>
@@ -1237,10 +1238,11 @@ function get_content($key, $conn, $fallback = '')
                         <div class="pe--button--wrapper">
                           <a class="pb--handle" href="https://cal.com/digitactic" target="_blank" rel="noopener"
                             data-cursor="true" data-cursor-type="hidden" data-cursor-text="" data-cursor-icon=""> <span
-                              class="pe--button--text pe--styled--object"> BOOK A CALL </span>
+                              class="pe--button--text pe--styled--object"> Start a Conversation </span>
                           </a>
                         </div>
                       </div>
+                      <p style="margin-top: 15px; font-size: 16px; color: #ccc;">Tell us about your business. We’ll identify key gaps and opportunities within 24 hours.</p>
                     </div>
                   </div>
 
@@ -1563,8 +1565,7 @@ function get_content($key, $conn, $fallback = '')
                           </div>
                           <div data-image-hover=""
                             class="cta--element pe--styled--object element--text elementor-repeater-item-f03aee7  ">
-                            <p>End-to-end digital business systems that cover every aspect of your online presence. From
-                              strategy to execution, we build infrastructures designed to scale:</p>
+                            <p>Connected systems that unify your brand, website, and operations; eliminating inefficiencies and creating a clear path for growth.</p>
                           </div>
                           <div data-image-hover=""
                             class="cta--element pe--styled--object element--text elementor-repeater-item-89098c6  ">
@@ -1597,7 +1598,7 @@ function get_content($key, $conn, $fallback = '')
                           <div data-image-hover=""
                             class="cta--element pe--styled--object element--title elementor-repeater-item-ff8ac83  ">
                             <h3> <span data-text-hover="slide-up" data-text="02. Marketing" class="text-hover">
-                                <span>02. Content Creation & Visual Identity</span> </span></h3>
+                                <span>02. Brand Identity Systems</span> </span></h3>
                           </div>
                           <div data-image-hover=""
                             class="cta--element pe--styled--object element--icon elementor-repeater-item-146cd43  ">
@@ -1607,9 +1608,7 @@ function get_content($key, $conn, $fallback = '')
                           </div>
                           <div data-image-hover=""
                             class="cta--element pe--styled--object element--text elementor-repeater-item-f03aee7  ">
-                            <p>Premium brand systems that communicate confidence and clarity. We create identities that
-                              command attention and reflect your ambition.
-                            </p>
+                            <p>Strategic identities that position your business with clarity, consistency, and premium perception.</p>
                           </div>
                           <div data-image-hover=""
                             class="cta--element pe--styled--object element--text elementor-repeater-item-89098c6  ">
@@ -1646,7 +1645,7 @@ function get_content($key, $conn, $fallback = '')
                           <div data-image-hover=""
                             class="cta--element pe--styled--object element--title elementor-repeater-item-ff8ac83  ">
                             <h3> <span data-text-hover="slide-up" data-text="03. Web Design" class="text-hover">
-                                <span>03. Marketing Systems</span> </span></h3>
+                                <span>03. Web & E-Commerce Platform</span> </span></h3>
                           </div>
                           <div data-image-hover=""
                             class="cta--element pe--styled--object element--icon elementor-repeater-item-146cd43  ">
@@ -1656,8 +1655,7 @@ function get_content($key, $conn, $fallback = '')
                           </div>
                           <div data-image-hover=""
                             class="cta--element pe--styled--object element--text elementor-repeater-item-f03aee7  ">
-                            <p>Strategic marketing infrastructure built for sustainable growth. Content, campaigns, and
-                              conversion systems designed to work together seamlessly</p>
+                            <p>High-performance websites designed to convert visitors into clients and support long-term scalability.</p>
                           </div>
                           <div data-image-hover=""
                             class="cta--element pe--styled--object element--text elementor-repeater-item-89098c6  ">
@@ -1694,7 +1692,7 @@ function get_content($key, $conn, $fallback = '')
                           <div data-image-hover=""
                             class="cta--element pe--styled--object element--title elementor-repeater-item-ff8ac83  ">
                             <h3> <span data-text-hover="slide-up" data-text="04. Digital" class="text-hover"> <span>04.
-                                  Websites & Apps Platforms</span> </span></h3>
+                              Marketing Systems</span> </span></h3>
                           </div>
                           <div data-image-hover=""
                             class="cta--element pe--styled--object element--icon elementor-repeater-item-146cd43  ">
@@ -1704,8 +1702,7 @@ function get_content($key, $conn, $fallback = '')
                           </div>
                           <div data-image-hover=""
                             class="cta--element pe--styled--object element--text elementor-repeater-item-f03aee7  ">
-                            <p>High-performance websites and e-commerce platforms designed for conversion. Premium
-                              aesthetic meets future-driven functionality.</p>
+                            <p>Structured systems that consistently attract, nurture, and convert your ideal audience.</p>
                           </div>
                           <div data-image-hover=""
                             class="cta--element pe--styled--object element--text elementor-repeater-item-89098c6  ">
@@ -1741,8 +1738,8 @@ function get_content($key, $conn, $fallback = '')
                         <div class="pe--cta--wrapper ">
                           <div data-image-hover=""
                             class="cta--element pe--styled--object element--title elementor-repeater-item-ff8ac83  ">
-                            <h3> <span data-text-hover="slide-up" data-text="05. Storytelling" class="text-hover">
-                                <span>05. Business Consulting </span> </span></h3>
+                            <h3> <span data-text-hover="slide-up" data-text="05. Operations & Workflows" class="text-hover">
+                                <span>05. Operations & Workflows </span> </span></h3>
                           </div>
                           <div data-image-hover=""
                             class="cta--element pe--styled--object element--icon elementor-repeater-item-146cd43  ">
@@ -1752,8 +1749,7 @@ function get_content($key, $conn, $fallback = '')
                           </div>
                           <div data-image-hover=""
                             class="cta--element pe--styled--object element--text elementor-repeater-item-f03aee7  ">
-                            <p>Behind-the-scenes systems that keep your business running smoothly. Workflows,
-                              automation, and strategic frameworks for sustainable growth.</p>
+                            <p>Streamlined internal systems that reduce manual work and improve day-to-day efficiency.</p>
                           </div>
                           <div data-image-hover=""
                             class="cta--element pe--styled--object element--text elementor-repeater-item-89098c6  ">
@@ -1780,6 +1776,8 @@ function get_content($key, $conn, $fallback = '')
                   </div>
                 </div>
               </div>
+
+              
               <div class="elementor-element elementor-element-7ed86dfd e-con-full e-flex no e-con e-child"
                 data-id="7ed86dfd" data-element_type="container" data-e-type="container">
                 <div
@@ -1788,10 +1786,14 @@ function get_content($key, $conn, $fallback = '')
                   data-widget_type="petextwrapper.default">
                   <div class="elementor-widget-container">
                     <div class="text-wrapper pe--styled--object">
-                      <p class="no-margin hide-br-mobile  "><span
-                          class="no-underline  inner--element customized--word elementor-repeater-item-b638ee2"> </span>
+                      <p class="no-margin hide-br-mobile  ">
+
                         <span
-                          class="no-underline  inner--element customized--word elementor-repeater-item-b638ee2"> </span>Since Inception, we’ve been using creativity to help shape and grow some of the world’s most ambitious brands.
+                          class="no-underline  inner--element customized--word elementor-repeater-item-b638ee2">
+                          Explore Our Capabilities </span>
+                        <span
+                          class="no-underline  inner--element customized--word elementor-repeater-item-b638ee2"> 
+                        </span>Since inception, we’ve been using creativity to help shape and grow some of the world’s most ambitious brands.
                       </p>
                     </div>
                   </div>

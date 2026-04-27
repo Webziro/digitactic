@@ -2202,6 +2202,168 @@ function get_content($key, $conn, $fallback = '')
                 });
             });
             </script>
+            
+            <!-- Investment Section -->
+            <section id="investment" class="investment-section">
+                <div class="investment-container">
+                    <p class="section-subheading" style="font-size: 14px !important; color: #D6A94E !important; text-transform: uppercase !important; margin-bottom: 20px; letter-spacing: 2px;">Value & Results</p>
+                    <h2 class="section-title">Investment</h2>
+                    
+                    <p class="investment-subtitle">We work with businesses ready to invest in long-term growth, not short-term fixes.</p>
+                    
+                    <div class="price-box">
+                        <p class="price-label">Projects typically begin at:</p>
+                        <h3 class="price-value">$5,000<span>+</span></h3>
+                    </div>
+                    
+                    <p class="investment-tailored">Each engagement is tailored based on scope, complexity, and goals.</p>
+                    
+                    <div class="investment-cta">
+                        <a href="/contact/" class="proposal-btn">
+                            <span>Request a Proposal</span>
+                            <i class="material-icons">arrow_forward</i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <style>
+            .investment-section {
+                padding: 120px 0;
+                background: #000;
+                text-align: center;
+                color: #fff;
+                position: relative;
+                z-index: 10;
+            }
+
+            .investment-container {
+                max-width: 900px;
+                margin: 0 auto;
+                padding: 0 20px;
+            }
+
+            .investment-section .section-title {
+                font-size: 64px;
+                font-weight: 800;
+                margin-bottom: 30px;
+                letter-spacing: -2px;
+                font-family: 'Outfit', sans-serif;
+            }
+
+            .investment-subtitle {
+                font-size: 22px;
+                color: #b0b0b0;
+                line-height: 1.5;
+                margin-bottom: 60px;
+                font-weight: 400;
+                max-width: 700px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .price-box {
+                background: rgba(214, 169, 78, 0.03);
+                border: 1px solid rgba(214, 169, 78, 0.1);
+                padding: 70px 40px;
+                border-radius: 32px;
+                margin-bottom: 40px;
+                transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+            }
+
+            .price-box:hover {
+                border-color: #D6A94E;
+                background: rgba(214, 169, 78, 0.06);
+                transform: translateY(-5px);
+                box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+            }
+
+            .price-label {
+                font-size: 16px;
+                color: #D6A94E;
+                text-transform: uppercase;
+                letter-spacing: 3px;
+                margin-bottom: 15px;
+                font-weight: 600;
+            }
+
+            .price-value {
+                font-size: 90px !important;
+                font-weight: 800 !important;
+                color: #fff !important;
+                margin: 0 !important;
+                line-height: 1 !important;
+                font-family: 'Outfit', sans-serif;
+            }
+
+            .price-value span {
+                color: #D6A94E;
+                font-size: 45px;
+                vertical-align: top;
+                margin-left: 5px;
+            }
+
+            .investment-tailored {
+                font-size: 17px;
+                color: #666;
+                margin-bottom: 60px;
+                font-style: italic;
+            }
+
+            .proposal-btn {
+                display: inline-flex;
+                align-items: center;
+                background: #D6A94E;
+                color: #000 !important;
+                padding: 24px 60px;
+                border-radius: 100px;
+                font-weight: 700;
+                font-size: 18px;
+                text-decoration: none !important;
+                transition: all 0.4s ease;
+                text-transform: uppercase;
+                letter-spacing: 1.5px;
+                box-shadow: 0 10px 20px rgba(214, 169, 78, 0.2);
+            }
+
+            .proposal-btn:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 20px 40px rgba(214, 169, 78, 0.4);
+                background: #fff;
+                color: #000 !important;
+            }
+
+            .proposal-btn i {
+                margin-left: 15px;
+                font-size: 22px;
+                transition: transform 0.3s ease;
+            }
+
+            .proposal-btn:hover i {
+                transform: translateX(5px);
+            }
+
+            @media (max-width: 768px) {
+                .investment-section .section-title {
+                    font-size: 44px;
+                }
+                .price-value {
+                    font-size: 64px !important;
+                }
+                .investment-subtitle {
+                    font-size: 18px;
+                }
+                .price-box {
+                    padding: 50px 20px;
+                }
+                .proposal-btn {
+                    padding: 20px 40px;
+                    font-size: 16px;
+                    width: 100%;
+                    justify-content: center;
+                }
+            }
+            </style>
             <div class="elementor-element elementor-element-418cb892 e-con-full e-flex no e-con e-parent"
               data-id="418cb892" data-element_type="container" data-e-type="container" id="impact">
               <div class="elementor-element elementor-element-44f451cb e-con-full e-flex no e-con e-child"

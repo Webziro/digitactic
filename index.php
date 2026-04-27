@@ -1583,6 +1583,17 @@ function get_content($key, $conn, $fallback = '')
 
             <div class="elementor-element elementor-element-1894a382 e-con-full e-flex no e-con e-parent"
               data-id="1894a382" data-element_type="container" data-e-type="container" id="services">
+              <style>
+                #services .pe--call--to--action .element--title h3,
+                #services .pe--call--to--action .element--title h3 span,
+                #services .pe--call--to--action .elementor-repeater-item-f03aee7 p {
+                    color: #000 !important;
+                }
+                #services .pe--call--to--action .elementor-repeater-item-f03aee7 p {
+                    font-size: 17px !important;
+                    line-height: 1.6 !important;
+                }
+              </style>
               <div
                 class="elementor-element elementor-element-6092eed elementor-absolute e-transform marquee--autoplay elementor-widget elementor-widget-pemarquee"
                 data-id="6092eed" data-element_type="widget" data-e-type="widget"

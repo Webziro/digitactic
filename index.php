@@ -1441,9 +1441,14 @@ function get_content($key, $conn, $fallback = '')
                     <div class="elementor-widget-container">
                       <div class="pe--button   button--bordered hover--custom button-- " data-text-hover="none"
                         data-background-hover="slide-up" data-icon-hover="none">
-                        <div class="pe--button--wrapper"><a class="pb--handle" href="/works/" data-cursor="true"
-                            data-cursor-type="hidden" data-cursor-text="" data-cursor-icon=""> <span
-                              class="pe--button--text pe--styled--object"> VIEW ALL OUR WORK </span> </a></div>
+                        
+
+                          <div class="investment-cta">
+                            <a href="/works/" class="proposal-btn">
+                                <span>VIEW ALL OUR WORK</span>
+                                <i class="material-icons">arrow_forward</i>
+                            </a>
+                          </div>
                       </div>
                     </div>
                   </div>
@@ -1495,12 +1500,14 @@ function get_content($key, $conn, $fallback = '')
                   <div class="elementor-widget-container">
                     <div class="pe--button button--bordered hover--custom button--" data-text-hover="none"
                       data-background-hover="slide-up" data-icon-hover="none" style="margin: 0 auto;">
-                      <div class="pe--button--wrapper">
-                        <a class="pb--handle" href="https://cal.com/digitactic" target="_blank" rel="noopener"
-                            data-cursor="true" data-cursor-type="hidden" data-cursor-text="" data-cursor-icon=""> <span
-                              class="pe--button--text pe--styled--object"> BOOK A CALL </span>
-                          </a>
+
+                      <div class="investment-cta">
+                        <a href="https://cal.com/digitactic" target="_blank" rel="noopener" class="proposal-btn">
+                          <span>BOOK A CALL</span>
+                          <i class="material-icons">arrow_forward</i>
+                        </a>
                       </div>
+
                     </div>
                   </div>
                 </div>
@@ -1900,9 +1907,16 @@ function get_content($key, $conn, $fallback = '')
                   <div class="elementor-widget-container">
                     <div class="pe--button   button--bordered hover--custom button-- " data-text-hover="none"
                       data-background-hover="slide-up" data-icon-hover="none">
-                      <div class="pe--button--wrapper"><a class="pb--handle" href="/services/" data-cursor="true"
-                          data-cursor-type="hidden" data-cursor-text="" data-cursor-icon=""> <span
-                            class="pe--button--text pe--styled--object"> EXPLORE OUR SERVICES </span> </a></div>
+
+
+                      <div class="investment-cta">
+                        <a href="/services/" class="proposal-btn">
+                          <span>EXPLORE OUR SERVICES</span>
+                          <i class="material-icons">arrow_forward</i>
+                        </a>
+                      </div>
+
+
                     </div>
                   </div>
                 </div>

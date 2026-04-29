@@ -28,6 +28,7 @@ function get_content($key, $conn, $fallback = '')
 
 <head>
   <meta charset="UTF-8">
+  <link rel="stylesheet" href="/custom.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="profile" href="https://gmpg.org/xfn/11">
   <title>Creative Agency &#8211; Digitactic</title>
@@ -1235,12 +1236,23 @@ function get_content($key, $conn, $fallback = '')
                     <div class="elementor-widget-container">
                       <div class="pe--button   button--bordered hover--custom button-- " data-text-hover="none"
                         data-background-hover="slide-up" data-icon-hover="none">
-                        <div class="pe--button--wrapper">
+
+
+                        <!-- <div class="pe--button--wrapper">
                           <a class="pb--handle" href="https://cal.com/digitactic" target="_blank" rel="noopener"
                             data-cursor="true" data-cursor-type="hidden" data-cursor-text="" data-cursor-icon=""> <span
                               class="pe--button--text pe--styled--object"> Start a Conversation </span>
                           </a>
+                        </div> -->
+
+                        <div class="investment-cta">
+                          <a href="https://cal.com/digitactic"  target="_blank" rel="noopener" class="proposal-btn">
+                              <span>Start a Conversation</span>
+                              <i class="material-icons">arrow_forward</i>
+                          </a>
                         </div>
+
+
                       </div>
                       <p style="margin-top: 15px; font-size: 16px; color: #ccc;">Tell us about your business. We’ll identify key gaps and opportunities within 24 hours.</p>
                     </div>
@@ -1285,10 +1297,14 @@ function get_content($key, $conn, $fallback = '')
                 <div class="elementor-widget-container">
                   <div class="pe--button   button--bordered hover--custom button-- " data-text-hover="none"
                     data-background-hover="slide-up" data-icon-hover="none">
-                    <div class="pe--button--wrapper"><a class="pb--handle" href="/about/" data-cursor="true"
-                        data-cursor-type="hidden" data-cursor-text="" data-cursor-icon=""> <span
-                          class="pe--button--text pe--styled--object"> ABOUT US </span> </a></div>
-                  </div>
+
+                    <div class="investment-cta">
+                      <a href="/about/" class="proposal-btn">
+                          <span>ABOUT US</span>
+                          <i class="material-icons">arrow_forward</i>
+                      </a>
+                    </div>
+                    </div>
                 </div>
               </div>
 
@@ -2717,10 +2733,10 @@ function get_content($key, $conn, $fallback = '')
         background: transparent;
         color: #D6A94E !important;
         border: 2px solid #D6A94E;
-        padding: 24px 60px;
+        padding: 16px 20px;
         border-radius: 100px;
         font-weight: 700;
-        font-size: 20px;
+        font-size: 16px;
         text-decoration: none !important;
         transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
         text-transform: uppercase;
@@ -2736,7 +2752,7 @@ function get_content($key, $conn, $fallback = '')
 
     .cta-btn-main i {
         margin-left: 15px;
-        font-size: 24px;
+        font-size: 14px;
     }
 
     @media (max-width: 768px) {

@@ -949,9 +949,9 @@ function get_content($key, $conn, $fallback = '')
             data-widget_type="peloadertransitionelement.default">
             <div class="elementor-widget-container">
               <div class="pe--lt--element element--logo">
-                <div class="loader--logo"><img fetchpriority="high" src="wp-content/uploads/sites/12/2025/11/digitactic_bg.png"
+                <div class="loader--logo"><img fetchpriority="high" src="wp-content/uploads/sites/12/2025/11/digitactic_load.png"
                     class="attachment-full size-full wp-image-15359" alt="" decoding="async" /></div>
-                <div class="loader--logo loader--logo--clone"><img fetchpriority="high" src="wp-content/uploads/sites/12/2025/11/digitactic_bg.png"
+                <div class="loader--logo loader--logo--clone"><img fetchpriority="high" src="wp-content/uploads/sites/12/2025/11/digitactic_load.png"
                     class="attachment-full size-full wp-image-15359" alt="" decoding="async" /></div>
               </div>
             </div>

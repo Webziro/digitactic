@@ -2014,10 +2014,15 @@ pe--styled--object text--anim--inner">
                 <div class="elementor-widget-container">
                   <div class="pe--button   button--bordered hover--custom button-- " data-text-hover="none"
                     data-background-hover="slide-up" data-icon-hover="none">
-                    <div class="pe--button--wrapper"><a class="pb--handle" href="/works/" data-cursor="true"
-                        data-cursor-type="hidden" data-cursor-text="" data-cursor-icon=""> <span
-                          class="pe--button--text pe--styled--object"> OUR PORTFOLIO </span> </a></div>
-                  </div>
+
+
+                <div class="investment-cta">
+                          <a href="/works/"  class="proposal-btn">
+                              <span>OUR PORTFOLIO</span>
+                              <i class="material-icons"  style="color: #fff !important;">arrow_forward</i>
+                          </a>
+                </div>
+
                 </div>
               </div>
             </div>
@@ -2025,6 +2030,121 @@ pe--styled--object text--anim--inner">
         </div>
       </article>
     </main>
+
+    <style>
+            .investment-section {
+                padding: 120px 0;
+                background: #000;
+                text-align: center;
+                color: #fff;
+                position: relative;
+                z-index: 10;
+            }
+
+            .investment-container {
+                max-width: 900px;
+                margin: 0 auto;
+                padding: 0 20px;
+            }
+
+            .investment-section .section-title {
+                font-size: 64px;
+                font-weight: 800;
+                margin-bottom: 30px;
+                letter-spacing: -2px;
+                font-family: 'Outfit', sans-serif;
+            }
+
+            .investment-subtitle {
+                font-size: 22px;
+                color: #b0b0b0;
+                line-height: 1.5;
+                margin-bottom: 60px;
+                font-weight: 400;
+                max-width: 700px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .price-box {
+                background: rgba(214, 169, 78, 0.03);
+                border: 1px solid rgba(214, 169, 78, 0.1);
+                padding: 70px 40px;
+                border-radius: 32px;
+                margin-bottom: 40px;
+                transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+            }
+
+            .price-box:hover {
+                border-color: #D6A94E;
+                background: rgba(214, 169, 78, 0.06);
+                transform: translateY(-5px);
+                box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+            }
+
+
+
+            .investment-tailored {
+                font-size: 17px;
+                color: #666;
+                margin-bottom: 60px;
+                font-style: italic;
+            }
+
+            .proposal-btn {
+                display: inline-flex;
+                align-items: center;
+                background: #D6A94E;
+                color: #000 !important;
+                padding: 24px 60px;
+                border-radius: 100px;
+                font-weight: 700;
+                font-size: 18px;
+                text-decoration: none !important;
+                transition: all 0.4s ease;
+                text-transform: uppercase;
+                letter-spacing: 1.5px;
+                box-shadow: 0 10px 20px rgba(214, 169, 78, 0.2);
+            }
+
+            .proposal-btn:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 20px 40px rgba(214, 169, 78, 0.4);
+                background: #000;
+                color: #fff !important;
+            }
+
+            .proposal-btn i {
+                margin-left: 15px;
+                font-size: 22px;
+                transition: transform 0.3s ease;
+            }
+
+            .proposal-btn:hover i {
+                transform: translateX(5px);
+            }
+
+            @media (max-width: 768px) {
+                .investment-section .section-title {
+                    font-size: 44px;
+                }
+                .price-value {
+                    font-size: 64px !important;
+                }
+                .investment-subtitle {
+                    font-size: 18px;
+                }
+                .price-box {
+                    padding: 50px 20px;
+                }
+                .proposal-btn {
+                    padding: 20px 40px;
+                    font-size: 16px;
+                    width: 100%;
+                    justify-content: center;
+                }
+            }
+            </style>
 
 
     <footer id="colophon" class="site-footer  footer--overlay">

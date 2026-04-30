@@ -1371,6 +1371,8 @@ pe--styled--object text--anim--inner"> <a data-cursor="true" data-cursor-type="d
                   </div>
                 </div>
 
+
+
                 <div
                   class="elementor-element elementor-element-24021223 labels--hidden bt--bordered elementor-widget elementor-widget-peforms"
                   data-id="24021223" data-element_type="widget" data-e-type="widget"
@@ -1379,32 +1381,168 @@ pe--styled--object text--anim--inner"> <a data-cursor="true" data-cursor-type="d
                   <div class="elementor-widget-container">
                     <div class="form--preview"></div>
                     <div class="my--custom--form form--custom focus--outline" id="contact-form-container">
+                        <style>
+                          #contact-form-container {
+                            background: rgba(255, 255, 255, 0.95);
+                            backdrop-filter: blur(10px);
+                            -webkit-backdrop-filter: blur(10px);
+                            border: 1px solid rgba(0, 0, 0, 0.1);
+                            border-radius: 16px;
+                            padding: 30px;
+                            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+                            max-width: 800px;
+                            margin: 0 auto;
+                          }
+
+                          #contact-form {
+                            display: grid;
+                            grid-template-columns: repeat(2, 1fr);
+                            gap: 15px 25px;
+                          }
+
+                          .form-field {
+                            margin-bottom: 0;
+                            position: relative;
+                          }
+
+                          /* Full width for specific fields */
+                          .form-field.full-width {
+                            grid-column: span 2;
+                          }
+
+                          .form-field label.label--main {
+                            display: block;
+                            margin-bottom: 6px;
+                            color: #000000;
+                            font-size: 0.75rem;
+                            font-weight: 700;
+                            letter-spacing: 1px;
+                            text-transform: uppercase;
+                          }
+
+                          .form-field input, 
+                          .form-field textarea,
+                          .form-field select {
+                            width: 100%;
+                            padding: 12px 16px;
+                            background: #f9f9f9;
+                            border: 1.5px solid #eeeeee;
+                            border-radius: 8px;
+                            color: #000000;
+                            font-size: 0.95rem;
+                            font-family: inherit;
+                            transition: all 0.3s ease;
+                          }
+
+                          .form-field input::placeholder,
+                          .form-field textarea::placeholder {
+                            color: #999999;
+                          }
+
+                          .form-field input:focus, 
+                          .form-field textarea:focus,
+                          .form-field select:focus {
+                            outline: none;
+                            border-color: #000000;
+                            background: #ffffff;
+                            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+                          }
+
+                          .form-field select {
+                            appearance: none;
+                            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23000000' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+                            background-repeat: no-repeat;
+                            background-position: right 15px center;
+                            background-size: 14px;
+                            cursor: pointer;
+                          }
+
+                          .form-field select option {
+                            background: #ffffff;
+                            color: #000;
+                          }
+
+                          .pe--form--button--wrap {
+                            grid-column: span 2;
+                            margin-top: 10px;
+                          }
+
+                          #contact-form .pb--handle {
+                            background: #000000 !important;
+                            color: #ffffff !important;
+                            border: none !important;
+                            padding: 16px 30px !important;
+                            border-radius: 8px !important;
+                            font-weight: 600 !important;
+                            letter-spacing: 1px !important;
+                            text-transform: uppercase !important;
+                            font-size: 0.85rem !important;
+                            width: 100% !important;
+                            cursor: pointer !important;
+                            transition: all 0.3s ease !important;
+                            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2) !important;
+                          }
+
+                          #contact-form .pb--handle:hover {
+                            background: #333333 !important;
+                            transform: translateY(-2px) !important;
+                          }
+
+                          #form-message {
+                            grid-column: span 2;
+                            font-size: 0.85rem;
+                            margin-top: 10px;
+                            text-align: center;
+                            color: #000;
+                          }
+
+                          /* Responsive Adjustments */
+                          @media (max-width: 600px) {
+                            #contact-form {
+                              grid-template-columns: 1fr;
+                            }
+                            .form-field.full-width, .pe--form--button--wrap {
+                              grid-column: span 1;
+                            }
+                            #contact-form-container {
+                              padding: 20px;
+                            }
+                          }
+                        </style>
                       <form id="contact-form" method="POST" action="send_mail.php" onsubmit="submitContactForm(event)">
-                        <div class="form-field elementor-repeater-item-b6b1be1 "><label class='label--main'
+                        <div class="form-field"><label class='label--main'
                             for='first_name'>First Name</label><input autocomplete='text' aria-required=true
                             placeholder='First Name' type='text' name='First_Name' id='first_name' required></div>
-                        <div class="form-field elementor-repeater-item-df47732 "><label class='label--main'
+                        <div class="form-field"><label class='label--main'
                             for='last_name'>Last Name</label><input autocomplete='text' aria-required=true
                             placeholder='Last Name' type='text' name='Last_Name' id='last_name' required></div>
-                        <div class="form-field elementor-repeater-item-4e42d84 "><label class='label--main'
+                        <div class="form-field"><label class='label--main'
                             for='email'>Email</label><input autocomplete='email' placeholder='Email' type='email'
                             name='Email' id='email' required></div>
-                        <div class="form-field elementor-repeater-item-c22460a "><label class='label--main'
+                        <div class="form-field"><label class='label--main'
                             for='phone'>Phone</label><input autocomplete='tel' placeholder='Phone' type='tel'
                             name='Phone' id='phone'></div>
-                        <div class="form-field elementor-repeater-item-8aef8b2 "><label class='label--main'
-                            for='message'>Message</label><textarea rows='5' placeholder='Message' name='Message'
-                            id='message' required></textarea></div>
-                        <div class="pe--form--button--wrap pre--transform">
-                          <div class="pe--button   button--bordered hover--custom button-- " data-text-hover="none"
-                            data-background-hover="slide-up" data-icon-hover="none">
-                            <div class="pe--button--wrapper"><button class="pb--handle" type="submit" data-cursor="true"
-                                data-cursor-type="default" data-cursor-text="" data-cursor-icon=""><span
-                                  class="pe--button--text pe--styled--object" id="submit-btn-text"> Submit </span>
-                              </button></div>
-                          </div>
+                        <div class="form-field full-width">
+                          <label class='label--main' for='improve_part'>Improvement Area</label>
+                          <select name='Improvement_Area' id='improve_part' required>
+                            <option value="" disabled selected>Which part of your project needs improvement?</option>
+                            <option value="System Scalability & Performance">System Scalability & Performance</option>
+                            <option value="Workflow & Process Automation">Workflow & Process Automation</option>
+                            <option value="Legacy Code Modernization">Legacy Code Modernization</option>
+                            <option value="Custom Enterprise Dashboards">Custom Enterprise Dashboards</option>
+                            <option value="Full-Scale Product Development (MVP)">Full-Scale Product Development (MVP)</option>
+                            <option value="Others">Others</option>
+                          </select>
                         </div>
-                        <div id="form-message" style="margin-top: 15px; font-weight: bold;"></div>
+                        <div class="form-field full-width"><label class='label--main'
+                            for='message'>Message</label><textarea rows='4' placeholder='Message' name='Message'
+                            id='message' required></textarea></div>
+                        <div class="pe--form--button--wrap">
+                          <button class="pb--handle" type="submit">
+                            <span id="submit-btn-text"> Send Message </span>
+                          </button>
+                        </div>
+                        <div id="form-message"></div>
                       </form>
                       <script>
                         function submitContactForm(e) {
@@ -1476,6 +1614,8 @@ pe--styled--object text--anim--inner"> <a data-cursor="true" data-cursor-type="d
                   </div>
 
                 </div>
+
+                
               </div>
             </div>
           </div>
@@ -1594,7 +1734,7 @@ pe--styled--object text--anim--inner"> <a data-cursor="true" data-cursor-type="d
                     <ul class="pe--list--wrapper">
                       <li data-index="1" class=" pe--list--item pe--hover--trigger
 pe--styled--object text--anim--inner"> <a data-cursor="true" data-cursor-type="default" data-cursor-text=""
-                          data-cursor-icon="" target="_blank" href="#"><span class="list--icon pe--styled--object">
+                          data-cursor-icon="" target="_blank" href="https://www.facebook.com/share/1CUAnXVT4t/?mibextid=wwXIfr"><span class="list--icon pe--styled--object">
                             <span data-icon-hover="slide-up-right" class="pe--icon--hover"> <span><i aria-hidden="true"
                                   class="material-icons md-arrow_outward" data-md-icon="arrow_outward"></i></span><span
                                 class="icon--hover--wrap"><i aria-hidden="true" class="material-icons md-arrow_outward"

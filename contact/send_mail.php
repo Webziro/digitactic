@@ -19,6 +19,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $email = sanitize($_POST["Email"] ?? '');
     $phone = sanitize($_POST["Phone"] ?? '');
     $message = sanitize($_POST["Message"] ?? '');
+    $improvement_area = sanitize($_POST["Improvement_Area"] ?? 'Not specified');
 
     // Validation rules
     if (empty($first_name)) {
@@ -49,6 +50,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
             "Last Name: $last_name\n" .
             "Email: $email\n" .
             "Phone: $phone\n" .
+            "Improvement Area: $improvement_area\n" .
             "Message:\n$message\n";
 
         $mail = new PHPMailer(true);

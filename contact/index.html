@@ -501,9 +501,146 @@
     padding-top: 140px !important;
   }
 }
+
+/* Investment Section Styles */
+.investment-section {
+    padding: 120px 0;
+    background: #000;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    z-index: 10;
+}
+
+.investment-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.investment-section .section-title {
+    font-size: 64px;
+    font-weight: 800;
+    margin-bottom: 30px;
+    letter-spacing: -2px;
+    font-family: 'Outfit', sans-serif;
+}
+
+.investment-subtitle {
+    font-size: 22px;
+    color: #b0b0b0;
+    line-height: 1.5;
+    margin-bottom: 60px;
+    font-weight: 400;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.price-box {
+    background: rgba(214, 169, 78, 0.03);
+    border: 1px solid rgba(214, 169, 78, 0.1);
+    padding: 70px 40px;
+    border-radius: 32px;
+    margin-bottom: 40px;
+    transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.price-box:hover {
+    border-color: #D6A94E;
+    background: rgba(214, 169, 78, 0.06);
+    transform: translateY(-5px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+}
+
+.price-label {
+    font-size: 16px;
+    color: #D6A94E;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.price-value {
+    font-size: 90px !important;
+    font-weight: 800 !important;
+    color: #fff !important;
+    margin: 0 !important;
+    line-height: 1 !important;
+    font-family: 'Outfit', sans-serif;
+}
+
+.price-value span {
+    color: #D6A94E;
+    font-size: 45px;
+    vertical-align: top;
+    margin-left: 5px;
+}
+
+.investment-tailored {
+    font-size: 17px;
+    color: #666;
+    margin-bottom: 60px;
+    font-style: italic;
+}
+
+.proposal-btn {
+    display: inline-flex;
+    align-items: center;
+    background: #D6A94E;
+    padding: 24px 60px;
+    border-radius: 100px;
+    font-weight: 700;
+    font-size: 18px;
+    text-decoration: none !important;
+    transition: all 0.4s ease;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    box-shadow: 0 10px 20px rgba(214, 169, 78, 0.2);
+}
+
+.proposal-btn:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 40px rgba(214, 169, 78, 0.4);
+    background: #fff;
+}
+
+
+
+.proposal-btn i {
+    margin-left: 15px;
+    font-size: 22px;
+    transition: transform 0.3s ease;
+}
+
+.proposal-btn:hover i {
+    transform: translateX(5px);
+}
+
+@media (max-width: 768px) {
+    .investment-section .section-title {
+        font-size: 44px;
+    }
+    .price-value {
+        font-size: 64px !important;
+    }
+    .investment-subtitle {
+        font-size: 18px;
+    }
+    .price-box {
+        padding: 50px 20px;
+    }
+    .proposal-btn {
+        padding: 20px 40px;
+        font-size: 16px;
+        width: 100%;
+        justify-content: center;
+    }
+}
 .pe--scroll--button i, .pe--scroll--button .pe--icon--caption { color: #000 !important; }
 </style>
-<style id='loading-fix'>#process .bg--color, #services .bg--color, .responsive-hero-title .customized--word, .responsive-hero-title .elementor-repeater-item-806b59e, .customized--word, .elementor-element-7ebdfb70, .elementor-element-7ebdfb70 *, .md-language { color: #D6A94E !important; } .responsive-hero-title .customized--word *, .customized--word * { color: #D6A94E !important; } h1, h2, h3, h4, h5, h6, .elementor-heading-title, p, a, span:not(.customized--word):not(.elementor-repeater-item-cc61341) { color: #fff !important; } .page--loader--block, .page--transition--block, .container--bg, .page--loader, .page--transitions { background-color: #e5d3a1 !important; }</style>
+<style id='loading-fix'>#process .bg--color, #services .bg--color, .responsive-hero-title .customized--word, .responsive-hero-title .elementor-repeater-item-806b59e, .customized--word, .elementor-element-7ebdfb70, .elementor-element-7ebdfb70 *, .md-language { color: #D6A94E !important; } .responsive-hero-title .customized--word *, .customized--word * { color: #D6A94E !important; } h1, h2, h3, h4, h5, h6, .elementor-heading-title, p, a, span:not(.customized--word):not(.elementor-repeater-item-cc61341) { color: #fff !important; } .investment-section .proposal-btn, .investment-section .proposal-btn span, .investment-section .proposal-btn i { color: #000 !important; } .investment-section .proposal-btn:hover, .investment-section .proposal-btn:hover span, .investment-section .proposal-btn:hover i { color: #000 !important; } .page--loader--block, .page--transition--block, .container--bg, .page--loader, .page--transitions { background-color: #e5d3a1 !important; }</style>
 </head>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-G8QKS6RS1E"></script>
 <script>window.dataLayer = window.dataLayer || [];
@@ -1619,30 +1756,31 @@ pe--styled--object text--anim--inner"> <a data-cursor="true" data-cursor-type="d
               </div>
             </div>
           </div>
+        <section id="investment" class="investment-section">
+            <div class="investment-container">
+                <h2 class="section-title">Let’s Build a System That Actually Works</h2>
+                <p class="investment-subtitle">Tell us where you are and where you want to go.<br>We’ll help you bridge the gap.</p>
+                
+                <div class="price-box">
+                    <div class="price-label">Starting From</div>
+                    <div class="price-value">€5,000<span>+</span></div>
+                </div>
+
+                <p class="investment-tailored">Every business has its own goals. We’ll tailor a solution that’s right for you.</p>
+                
+                <a href="/contact/" class="proposal-btn">
+                    <span>Start a Conversation</span>
+                    <i class="material-icons">chat_bubble_outline</i>
+                </a>
+            </div>
+        </section>
       </article>
     </main>
 
 
 
 
-    <div class="investment-section">
-            <div class="investment-container">
-                <h2 class="section-title">Investment</h2>
-                <p class="investment-subtitle">We’re obsessed with results, not just billing hours. Every project starts with a simple question: “How can we make you measurably more successful?” The answer determines our strategy, our process, and our price.</p>
-                
-                <div class="price-box">
-                    <div class="price-label">Starting From</div>
-                    <div class="price-value">$4,500 <span>.00</span></div>
-                </div>
 
-                <p class="investment-tailored">Every business has its own goals. We’ll tailor a solution that’s right for you.</p>
-                
-                <a href="/contact/" class="proposal-btn">
-                    <span>Get a Custom Proposal</span>
-                    <i class="material-icons">arrow_forward</i>
-                </a>
-            </div>
-        </div>
 
     <footer id="colophon" class="site-footer  footer--overlay">
       <div data-elementor-type="pe-footer" data-elementor-id="547" class="elementor elementor-547">

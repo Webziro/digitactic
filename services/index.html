@@ -502,6 +502,18 @@
       color: #fff !important;
     }
 
+    .investment-section .proposal-btn,
+    .investment-section .proposal-btn span,
+    .investment-section .proposal-btn i {
+      color: #000 !important;
+    }
+
+    .investment-section .proposal-btn:hover,
+    .investment-section .proposal-btn:hover span,
+    .investment-section .proposal-btn:hover i {
+      color: #000 !important;
+    }
+
     .page--loader--block,
     .page--transition--block,
     .container--bg,
@@ -1979,53 +1991,24 @@ pe--styled--object text--anim--inner">
                 </div>
               </div>
             </div>
-            <div class="elementor-element elementor-element-5d48e6e9 e-con-full e-flex no e-con e-parent"
-              data-id="5d48e6e9" data-element_type="container" data-e-type="container">
-              <div
-                class="elementor-element elementor-element-3364b67c text--align--center text-stroke-no elementor-widget elementor-widget-petextwrapper"
-                data-id="3364b67c" data-element_type="widget" data-e-type="widget"
-                data-widget_type="petextwrapper.default">
-                <div class="elementor-widget-container">
-                  <div class="text-wrapper pe--styled--object">
-                    <p class="no-margin   ">Discover more?</p>
-                  </div>
-                </div>
-              </div>
-              <div
-                class="elementor-element elementor-element-774c26cd text--align--center text-stroke-no text--anim--fade-false elementor-widget elementor-widget-petextwrapper"
-                data-id="774c26cd" data-element_type="widget" data-e-type="widget"
-                data-widget_type="petextwrapper.default">
-                <div class="elementor-widget-container">
-                  <div class="text-wrapper pe--styled--object">
-                    <p class="no-margin   " data-animate="true" data-animation="wordsUp"
-                      data-settings="{duration=1.5;delay=0;mobile_delay=;stagger=0.01;pin=false;pinTarget=;scrub=false;repeat=true;item_ref_start=top;window_ref_start=bottom;item_ref_end=bottom;window_ref_end=top;out=false;fade=false;justifyReveal=;inserted=false;easing=default}">
-                      We don't take on every client. We work with a limited number of entrepreneurs, creators, and
-                      business owners who are ready to build something exceptional, not just functional, but
-                      future-driven.
-                      <span class="no-underline  inner--element customized--word elementor-repeater-item-806b59e">
-                      </span>
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div
-                class="elementor-element elementor-element-74b872ef bt--bordered wd--show--on--top elementor-widget elementor-widget-pebutton"
-                data-id="74b872ef" data-element_type="widget" data-e-type="widget" data-widget_type="pebutton.default">
-                <div class="elementor-widget-container">
-                  <div class="pe--button   button--bordered hover--custom button-- " data-text-hover="none"
-                    data-background-hover="slide-up" data-icon-hover="none">
+            <section id="investment" class="investment-section">
+                <div class="investment-container">
+                    <h2 class="section-title">Let’s Build a System That Actually Works</h2>
+                    <p class="investment-subtitle">Tell us where you are and where you want to go.<br>We’ll help you bridge the gap.</p>
+                    
+                    <div class="price-box">
+                        <div class="price-label">Starting From</div>
+                        <div class="price-value">€5,000<span>+</span></div>
+                    </div>
 
-
-                <div class="investment-cta">
-                          <a href="/works/"  class="proposal-btn">
-                              <span>OUR PORTFOLIO</span>
-                              <i class="material-icons"  style="color: #fff !important;">arrow_forward</i>
-                          </a>
+                    <p class="investment-tailored">Every business has its own goals. We’ll tailor a solution that’s right for you.</p>
+                    
+                    <a href="/contact/" class="proposal-btn">
+                        <span>Start a Conversation</span>
+                        <i class="material-icons">chat_bubble_outline</i>
+                    </a>
                 </div>
-
-                </div>
-              </div>
-            </div>
+            </section>
           </div>
         </div>
       </article>
@@ -2082,6 +2065,31 @@ pe--styled--object text--anim--inner">
                 box-shadow: 0 20px 40px rgba(0,0,0,0.4);
             }
 
+            .price-label {
+                font-size: 16px;
+                color: #D6A94E;
+                text-transform: uppercase;
+                letter-spacing: 3px;
+                margin-bottom: 15px;
+                font-weight: 600;
+            }
+
+            .price-value {
+                font-size: 90px !important;
+                font-weight: 800 !important;
+                color: #fff !important;
+                margin: 0 !important;
+                line-height: 1 !important;
+                font-family: 'Outfit', sans-serif;
+            }
+
+            .price-value span {
+                color: #D6A94E;
+                font-size: 45px;
+                vertical-align: top;
+                margin-left: 5px;
+            }
+
 
 
             .investment-tailored {
@@ -2095,7 +2103,6 @@ pe--styled--object text--anim--inner">
                 display: inline-flex;
                 align-items: center;
                 background: #D6A94E;
-                color: #000 !important;
                 padding: 24px 60px;
                 border-radius: 100px;
                 font-weight: 700;
@@ -2110,9 +2117,10 @@ pe--styled--object text--anim--inner">
             .proposal-btn:hover {
                 transform: translateY(-5px);
                 box-shadow: 0 20px 40px rgba(214, 169, 78, 0.4);
-                background: #000;
-                color: #fff !important;
+                background: #fff;
             }
+
+
 
             .proposal-btn i {
                 margin-left: 15px;

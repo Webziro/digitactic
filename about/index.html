@@ -435,10 +435,232 @@
     href="/wp-content/cache/breeze-minification/12/css/breeze_about-12-15362-elementor-css-post-5471eba.css?ver=1772160179"
     rel="stylesheet" />
 
-<style>.site-branding, .site-logo, .site-logo a, .elementor-widget-pesitelogo { width: auto !important; max-width: none !important; min-width: max-content !important; overflow: visible !important; flex-shrink: 0 !important; } .site-branding .site-logo img, .site-branding .sticky-logo img, .main__logo { height: 75px !important; width: auto !important; max-width: none !important; max-height: none !important; object-fit: contain !important; }.pe--scroll--button i, .pe--scroll--button .pe--icon--caption { color: #000 !important; }
-.loader--caption { color: #000 !important; font-weight: bold !important; font-size: 14px !important; text-transform: uppercase !important; letter-spacing: 2px !important; }
-</style>
-<style id='loading-fix'>#process .bg--color, #services .bg--color, .responsive-hero-title .customized--word, .responsive-hero-title .elementor-repeater-item-806b59e, .customized--word, .elementor-element-7ebdfb70, .elementor-element-7ebdfb70 *, .md-language { color: #D6A94E !important; } .responsive-hero-title .customized--word *, .customized--word * { color: #D6A94E !important; } h1, h2, h3, h4, h5, h6, .elementor-heading-title, p, a, span:not(.customized--word):not(.elementor-repeater-item-cc61341) { color: #fff !important; } .page--loader--block, .page--transition--block, .container--bg, .page--loader, .page--transitions { background-color: #e5d3a1 !important; }</style>
+  <style>
+    .site-branding,
+    .site-logo,
+    .site-logo a,
+    .elementor-widget-pesitelogo {
+      width: auto !important;
+      max-width: none !important;
+      min-width: max-content !important;
+      overflow: visible !important;
+      flex-shrink: 0 !important;
+    }
+
+    .site-branding .site-logo img,
+    .site-branding .sticky-logo img,
+    .main__logo {
+      height: 75px !important;
+      width: auto !important;
+      max-width: none !important;
+      max-height: none !important;
+      object-fit: contain !important;
+    }
+
+    .pe--scroll--button i,
+    .pe--scroll--button .pe--icon--caption {
+      color: #000 !important;
+    }
+
+    .loader--caption {
+      color: #000 !important;
+      font-weight: bold !important;
+      font-size: 14px !important;
+      text-transform: uppercase !important;
+      letter-spacing: 2px !important;
+    }
+
+    /* Investment Section Styles */
+    .investment-section {
+      padding: 120px 0;
+      background: #000;
+      text-align: center;
+      color: #fff;
+      position: relative;
+      z-index: 10;
+    }
+
+    .investment-container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    .investment-section .section-title {
+      font-size: 64px;
+      font-weight: 800;
+      margin-bottom: 30px;
+      letter-spacing: -2px;
+      font-family: 'Outfit', sans-serif;
+    }
+
+    .investment-subtitle {
+      font-size: 22px;
+      color: #b0b0b0;
+      line-height: 1.5;
+      margin-bottom: 60px;
+      font-weight: 400;
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .price-box {
+      background: rgba(214, 169, 78, 0.03);
+      border: 1px solid rgba(214, 169, 78, 0.1);
+      padding: 70px 40px;
+      border-radius: 32px;
+      margin-bottom: 40px;
+      transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+    }
+
+    .price-box:hover {
+      border-color: #D6A94E;
+      background: rgba(214, 169, 78, 0.06);
+      transform: translateY(-5px);
+      box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+    }
+
+    .price-label {
+      font-size: 16px;
+      color: #D6A94E;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      margin-bottom: 15px;
+      font-weight: 600;
+    }
+
+    .price-value {
+      font-size: 90px !important;
+      font-weight: 800 !important;
+      color: #fff !important;
+      margin: 0 !important;
+      line-height: 1 !important;
+      font-family: 'Outfit', sans-serif;
+    }
+
+    .price-value span {
+      color: #D6A94E;
+      font-size: 45px;
+      vertical-align: top;
+      margin-left: 5px;
+    }
+
+    .investment-tailored {
+      font-size: 17px;
+      color: #666;
+      margin-bottom: 60px;
+      font-style: italic;
+    }
+
+    .proposal-btn {
+      display: inline-flex;
+      align-items: center;
+      background: #D6A94E;
+      padding: 24px 60px;
+      border-radius: 100px;
+      font-weight: 700;
+      font-size: 18px;
+      text-decoration: none !important;
+      transition: all 0.4s ease;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      box-shadow: 0 10px 20px rgba(214, 169, 78, 0.2);
+    }
+
+    .proposal-btn:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 20px 40px rgba(214, 169, 78, 0.4);
+      background: #fff;
+    }
+
+
+
+    .proposal-btn i {
+      margin-left: 15px;
+      font-size: 22px;
+      transition: transform 0.3s ease;
+    }
+
+    .proposal-btn:hover i {
+      transform: translateX(5px);
+    }
+
+    @media (max-width: 768px) {
+      .investment-section .section-title {
+        font-size: 44px;
+      }
+
+      .price-value {
+        font-size: 64px !important;
+      }
+
+      .investment-subtitle {
+        font-size: 18px;
+      }
+
+      .price-box {
+        padding: 50px 20px;
+      }
+
+      .proposal-btn {
+        padding: 20px 40px;
+        font-size: 16px;
+        width: 100%;
+        justify-content: center;
+      }
+    }
+  </style>
+  <style id='loading-fix'>
+    #process .bg--color,
+    #services .bg--color,
+    .responsive-hero-title .customized--word,
+    .responsive-hero-title .elementor-repeater-item-806b59e,
+    .customized--word,
+    .elementor-element-7ebdfb70,
+    .elementor-element-7ebdfb70 *,
+    .md-language {
+      color: #D6A94E !important;
+    }
+
+    .responsive-hero-title .customized--word *,
+    .customized--word * {
+      color: #D6A94E !important;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    .elementor-heading-title,
+    p,
+    a,
+    span:not(.customized--word):not(.elementor-repeater-item-cc61341) {
+      color: #fff !important;
+    }
+
+    .investment-section .proposal-btn,
+    .investment-section .proposal-btn span,
+    .investment-section .proposal-btn i {
+      color: #000 !important;
+    }
+
+    .investment-section .proposal-btn:hover,
+    .investment-section .proposal-btn:hover span,
+    .investment-section .proposal-btn:hover i {
+      color: #000 !important;
+    }
+
+    .page--loader--block,
+    .page--transition--block,
+    .container--bg,
+    .page--loader,
+    .page--transitions {
+      background-color: #e5d3a1 !important;
+    }
+  </style>
 </head>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-G8QKS6RS1E"></script>
 <script>window.dataLayer = window.dataLayer || [];
@@ -925,9 +1147,11 @@
             data-widget_type="peloadertransitionelement.default">
             <div class="elementor-widget-container">
               <div class="pe--lt--element element--logo">
-                <div class="loader--logo"><img fetchpriority="high" src="/wp-content/uploads/sites/12/2025/11/digitactic_bg.png"
+                <div class="loader--logo"><img fetchpriority="high"
+                    src="/wp-content/uploads/sites/12/2025/11/digitactic_bg.png"
                     class="attachment-full size-full wp-image-15359" alt="" decoding="async" /></div>
-                <div class="loader--logo loader--logo--clone"><img fetchpriority="high" src="/wp-content/uploads/sites/12/2025/11/digitactic_bg.png"
+                <div class="loader--logo loader--logo--clone"><img fetchpriority="high"
+                    src="/wp-content/uploads/sites/12/2025/11/digitactic_bg.png"
                     class="attachment-full size-full wp-image-15359" alt="" decoding="async" /></div>
               </div>
             </div>
@@ -955,7 +1179,8 @@
               data-id="1846483a" data-element_type="widget" data-e-type="widget" data-widget_type="pesitelogo.default">
               <div class="elementor-widget-container">
                 <div class="site-branding pe--styled--object align-left">
-                   <div class="site-logo"><a href="/" data-barba-prevent="all"><img src="/wp-content/uploads/sites/12/2025/11/digitactic_bg.png" class="main__logo" alt=""
+                  <div class="site-logo"><a href="/" data-barba-prevent="all"><img
+                        src="/wp-content/uploads/sites/12/2025/11/digitactic_bg.png" class="main__logo" alt=""
                         decoding="async" /> </a></div>
                   <div class="sticky-logo"><a href="/" data-barba-prevent="all"> </a></div>
                 </div>
@@ -974,7 +1199,9 @@
                   data-sub-toggle="&lt;span class=&quot;sub--toggle st--plus&quot;&gt;&lt;span class=&quot;toggle--line&quot;&gt;&lt;/span&gt;&lt;span class=&quot;toggle--line&quot;&gt;&lt;/span&gt;&lt;/span&gt;">
                   <ul id="menu-menu-2" class="menu main-menu menu--horizontal ">
                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-15383">
-                      <a href="/" data-barba-prevent="all" class="pe--styled--object  text--anim--inner menu--link">Home</a></li>
+                      <a href="/" data-barba-prevent="all"
+                        class="pe--styled--object  text--anim--inner menu--link">Home</a>
+                    </li>
                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15388"><a
                         href="/works/" class="pe--styled--object  text--anim--inner menu--link">Works</a>
                     </li>
@@ -985,14 +1212,13 @@
                         <li
                           class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-15362 current_page_item menu-item-15384">
                           <a href="/" aria-current="page"
-                            class="pe--styled--object  text--anim--inner menu--link">About</a></li>
+                            class="pe--styled--object  text--anim--inner menu--link">About</a>
+                        </li>
                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15386"><a
-                            href="/services/"
-                            class="pe--styled--object  text--anim--inner menu--link">Services</a></li>
-                            
+                            href="/services/" class="pe--styled--object  text--anim--inner menu--link">Services</a></li>
+
                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15385"><a
-                            href="/contact/"
-                            class="pe--styled--object  text--anim--inner menu--link">Contact</a></li>
+                            href="/contact/" class="pe--styled--object  text--anim--inner menu--link">Contact</a></li>
                       </ul>
                     </li>
                   </ul>
@@ -1008,25 +1234,26 @@
                   data-sub-toggle="&lt;span class=&quot;sub--toggle st--plus&quot;&gt;&lt;span class=&quot;toggle--line&quot;&gt;&lt;/span&gt;&lt;span class=&quot;toggle--line&quot;&gt;&lt;/span&gt;&lt;/span&gt;">
                   <div class="pe--menu--toggle pe--styled--object">
                     <div class="pe--menu--toggle--text pe--styled--object"> <span class="toggle--open--text">Menu</span>
-                      <span class="toggle--close--text">Close</span></div>
+                      <span class="toggle--close--text">Close</span>
+                    </div>
                   </div>
                   <ul id="menu-mobile-menu-1" class="menu main-menu menu--toggled ">
                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-15397">
-                      <a href="/" data-barba-prevent="all" class="pe--styled--object  text--anim--inner menu--link">Home</a></li>
+                      <a href="/" data-barba-prevent="all"
+                        class="pe--styled--object  text--anim--inner menu--link">Home</a>
+                    </li>
                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15392"><a
                         href="/works/" class="pe--styled--object  text--anim--inner menu--link">Works</a>
                     </li>
                     <li
                       class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-15362 current_page_item menu-item-15396">
-                      <a href="/" aria-current="page"
-                        class="pe--styled--object  text--anim--inner menu--link">About</a></li>
+                      <a href="/" aria-current="page" class="pe--styled--object  text--anim--inner menu--link">About</a>
+                    </li>
                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15394"><a
-                        href="/services/"
-                        class="pe--styled--object  text--anim--inner menu--link">Services</a></li>
+                        href="/services/" class="pe--styled--object  text--anim--inner menu--link">Services</a></li>
 
                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15395"><a
-                        href="/contact/"
-                        class="pe--styled--object  text--anim--inner menu--link">Contact</a></li>
+                        href="/contact/" class="pe--styled--object  text--anim--inner menu--link">Contact</a></li>
                   </ul>
                 </nav>
               </div>
@@ -1095,18 +1322,19 @@
                   data-widget_type="petextwrapper.default">
                   <div class="elementor-widget-container">
                     <div class="text-wrapper pe--styled--object">
-                      <p class="no-margin hide-br-mobile  ">We design and build digital systems that 
-                        <span
-                          class="no-underline  inner--element customized--word elementor-repeater-item-b638ee2">
+                      <p class="no-margin hide-br-mobile  ">We design and build digital systems that
+                        <span class="no-underline  inner--element customized--word elementor-repeater-item-b638ee2">
                           bring clarity, structure, and performance to
-                        </span> modern businesses.</p>
+                        </span> modern businesses.
+                      </p>
                     </div>
                   </div>
                 </div>
               </div>
 
-               <div class="elementor-element elementor-element-1a883663 e-con-full e-flex no e-con e-child"
-                data-id="1a883663" data-element_type="container" data-e-type="container" style="justify-content: flex-end; width: 100%; display: flex;">
+              <div class="elementor-element elementor-element-1a883663 e-con-full e-flex no e-con e-child"
+                data-id="1a883663" data-element_type="container" data-e-type="container"
+                style="justify-content: flex-end; width: 100%; display: flex;">
                 <div
                   class="elementor-element elementor-element-44918a9a text--align--right text-stroke-no elementor-widget elementor-widget-petextwrapper"
                   data-id="44918a9a" data-element_type="widget" data-e-type="widget"
@@ -1133,8 +1361,9 @@
                   "background" : ""
                   ,"editMode" : ""
                   ,"animations" : ""
-                  }' class="pe--spline--loader" data-object="https://prod.spline.design/zthzKbZLN2Ft-TP3/scene.splinecode"><canvas
-                class="spline--canvas"></canvas></div>
+                  }' class="pe--spline--loader"
+                    data-object="https://prod.spline.design/zthzKbZLN2Ft-TP3/scene.splinecode"><canvas
+                      class="spline--canvas"></canvas></div>
                 </div>
               </div>
             </div>
@@ -1186,75 +1415,79 @@
                   </div>
                 </div>
 
-              <!-- Breathable spacing override — CSS only, no structural changes -->
-              <style>
-                /* Add breathing room between the 3 columns */
-                .elementor-element-6d924843 {
-                  padding: 0 40px !important;
-                  border-left: 1px solid rgba(214, 169, 78, 0.2);
-                }
-                /* Remove left border on the first column */
-                .elementor-element-6d924843:first-of-type {
-                  padding-left: 0 !important;
-                  border-left: none;
-                }
-                /* Label (e.g. "Our Philosophy") — make it feel like a tag */
-                .elementor-element-505fb513 p,
-                .elementor-element-505fb513 .no-margin {
-                  font-size: 11px !important;
-                  text-transform: uppercase;
-                  letter-spacing: 0.22em;
-                  color: #D6A94E !important;
-                  font-weight: 600;
-                  margin-bottom: 28px !important;
-                  opacity: 1 !important;
-                }
-                /* Body text — more room to breathe */
-                .elementor-element-65aab0b0 p {
-                  line-height: 1.65 !important;
-                }
-                /* Responsive: collapse to single column on mobile */
-                @media (max-width: 768px) {
+                <!-- Breathable spacing override — CSS only, no structural changes -->
+                <style>
+                  /* Add breathing room between the 3 columns */
                   .elementor-element-6d924843 {
-                    padding: 40px 0 !important;
-                    border-left: none !important;
-                    border-top: 1px solid rgba(214, 169, 78, 0.2);
+                    padding: 0 40px !important;
+                    border-left: 1px solid rgba(214, 169, 78, 0.2);
                   }
-                }
-              </style>
 
-              <div class="elementor-element elementor-element-6d924843 e-con-full e-flex no e-con e-child"
-                data-id="6d924843" data-element_type="container" data-e-type="container">
-                <div
-                  class="elementor-element elementor-element-505fb513 text--align--left text-stroke-no elementor-widget elementor-widget-petextwrapper"
-                  data-id="505fb513" data-element_type="widget" data-e-type="widget"
-                  data-widget_type="petextwrapper.default">
-                  <div class="elementor-widget-container">
-                    <div class="text-wrapper pe--styled--object">
-                      <p class="no-margin   ">Philosophy</p>
+                  /* Remove left border on the first column */
+                  .elementor-element-6d924843:first-of-type {
+                    padding-left: 0 !important;
+                    border-left: none;
+                  }
+
+                  /* Label (e.g. "Our Philosophy") — make it feel like a tag */
+                  .elementor-element-505fb513 p,
+                  .elementor-element-505fb513 .no-margin {
+                    font-size: 11px !important;
+                    text-transform: uppercase;
+                    letter-spacing: 0.22em;
+                    color: #D6A94E !important;
+                    font-weight: 600;
+                    margin-bottom: 28px !important;
+                    opacity: 1 !important;
+                  }
+
+                  /* Body text — more room to breathe */
+                  .elementor-element-65aab0b0 p {
+                    line-height: 1.65 !important;
+                  }
+
+                  /* Responsive: collapse to single column on mobile */
+                  @media (max-width: 768px) {
+                    .elementor-element-6d924843 {
+                      padding: 40px 0 !important;
+                      border-left: none !important;
+                      border-top: 1px solid rgba(214, 169, 78, 0.2);
+                    }
+                  }
+                </style>
+
+                <div class="elementor-element elementor-element-6d924843 e-con-full e-flex no e-con e-child"
+                  data-id="6d924843" data-element_type="container" data-e-type="container">
+                  <div
+                    class="elementor-element elementor-element-505fb513 text--align--left text-stroke-no elementor-widget elementor-widget-petextwrapper"
+                    data-id="505fb513" data-element_type="widget" data-e-type="widget"
+                    data-widget_type="petextwrapper.default">
+                    <div class="elementor-widget-container">
+                      <div class="text-wrapper pe--styled--object">
+                        <p class="no-margin   ">Philosophy</p>
+                      </div>
                     </div>
                   </div>
-                </div>
 
-                <div
-                  class="elementor-element elementor-element-65aab0b0 text--align--left text-stroke-no elementor-widget elementor-widget-petextwrapper"
-                  data-id="65aab0b0" data-element_type="widget" data-e-type="widget"
-                  data-widget_type="petextwrapper.default">
-                  <div class="elementor-widget-container">
-                    <div class="text-wrapper pe--styled--object">
-                      <p class="no-margin hide-br-mobile  ">Most businesses don’t have a marketing <span
-                          class="no-underline  inner--element customized--word elementor-repeater-item-b638ee2">problem,
-                          they have a systems problem.</span></p>
+                  <div
+                    class="elementor-element elementor-element-65aab0b0 text--align--left text-stroke-no elementor-widget elementor-widget-petextwrapper"
+                    data-id="65aab0b0" data-element_type="widget" data-e-type="widget"
+                    data-widget_type="petextwrapper.default">
+                    <div class="elementor-widget-container">
+                      <div class="text-wrapper pe--styled--object">
+                        <p class="no-margin hide-br-mobile  ">Most businesses don’t have a marketing <span
+                            class="no-underline  inner--element customized--word elementor-repeater-item-b638ee2">problem,
+                            they have a systems problem.</span></p>
+                      </div>
                     </div>
                   </div>
+
+
+
                 </div>
-                
 
 
-              </div>
-
-
-            <div class="elementor-element elementor-element-6d924843 e-con-full e-flex no e-con e-child"
+                <div class="elementor-element elementor-element-6d924843 e-con-full e-flex no e-con e-child"
                   data-id="6d924843" data-element_type="container" data-e-type="container">
                   <div
                     class="elementor-element elementor-element-505fb513 text--align--left text-stroke-no elementor-widget elementor-widget-petextwrapper"
@@ -1279,13 +1512,13 @@
                       </div>
                     </div>
                   </div>
-                  
 
 
-            </div>
+
+                </div>
 
 
-            <div class="elementor-element elementor-element-6d924843 e-con-full e-flex no e-con e-child"
+                <div class="elementor-element elementor-element-6d924843 e-con-full e-flex no e-con e-child"
                   data-id="6d924843" data-element_type="container" data-e-type="container">
                   <div
                     class="elementor-element elementor-element-505fb513 text--align--left text-stroke-no elementor-widget elementor-widget-petextwrapper"
@@ -1310,7 +1543,7 @@
                       </div>
                     </div>
                   </div>
-            </div>
+                </div>
 
 
               </div>
@@ -1333,7 +1566,8 @@
                   data-id="c1cdb25" data-element_type="widget" data-e-type="widget"
                   data-widget_type="pemarquee.default">
                   <div class="elementor-widget-container">
-                    <h1 class="pe-marquee pe--styled--object rotating_seperator right-to-left   cursor-default" data-duration=30 data-sepduration=10><span class="big-title">CORE
+                    <h1 class="pe-marquee pe--styled--object rotating_seperator right-to-left   cursor-default"
+                      data-duration=30 data-sepduration=10><span class="big-title">CORE
                         VALUES</span>
                       <div class="seperator big-title"> <i aria-hidden="true" class="material-icons md-square"
                           data-md-icon="square"></i></div>
@@ -1397,9 +1631,11 @@
                         data-widget_type="petextwrapper.default">
                         <div class="elementor-widget-container">
                           <div class="text-wrapper pe--styled--object">
-                            <p class="no-margin hide-br-mobile  " style="font-size: 18px;">We curate the best talent from all corners of the
+                            <p class="no-margin hide-br-mobile  " style="font-size: 18px;">We curate the best talent
+                              from all corners of the
                               world. This enables us to leverage diverse perspectives, <span
-                                class="no-underline  inner--element customized--word elementor-repeater-item-b638ee2" style="color: #000;">knowledge,
+                                class="no-underline  inner--element customized--word elementor-repeater-item-b638ee2"
+                                style="color: #000;">knowledge,
                                 and expertise to deliver fresh and tailored solutions for our clients.</span></p>
                           </div>
                         </div>
@@ -1440,9 +1676,11 @@
                         data-widget_type="petextwrapper.default">
                         <div class="elementor-widget-container">
                           <div class="text-wrapper pe--styled--object">
-                            <p class="no-margin hide-br-mobile  " style="font-size: 18px;">We collaborate with purpose — bringing together global
+                            <p class="no-margin hide-br-mobile  " style="font-size: 18px;">We collaborate with purpose —
+                              bringing together global
                               talent driven by meaning, not just outcomes. <span
-                                class="no-underline  inner--element customized--word elementor-repeater-item-b638ee2" style="color: #000;">Every
+                                class="no-underline  inner--element customized--word elementor-repeater-item-b638ee2"
+                                style="color: #000;">Every
                                 idea and solution is shaped to create real impact and lasting value for our clients and
                                 their audiences.</span></p>
                           </div>
@@ -1484,9 +1722,11 @@
                         data-widget_type="petextwrapper.default">
                         <div class="elementor-widget-container">
                           <div class="text-wrapper pe--styled--object">
-                            <p class="no-margin hide-br-mobile  " style="font-size: 18px;">We believe openness builds stronger partnerships. By
+                            <p class="no-margin hide-br-mobile  " style="font-size: 18px;">We believe openness builds
+                              stronger partnerships. By
                               uniting diverse minds from around the world, <span
-                                class="no-underline  inner--element customized--word elementor-repeater-item-b638ee2" style="color: #000;">we
+                                class="no-underline  inner--element customized--word elementor-repeater-item-b638ee2"
+                                style="color: #000;">we
                                 maintain honesty in process and clarity in communication — ensuring trust in every
                                 collaboration.</span></p>
                           </div>
@@ -1528,9 +1768,11 @@
                         data-widget_type="petextwrapper.default">
                         <div class="elementor-widget-container">
                           <div class="text-wrapper pe--styled--object">
-                            <p class="no-margin hide-br-mobile  " style="font-size: 18px;">We bring together people who understand before they
+                            <p class="no-margin hide-br-mobile  " style="font-size: 18px;">We bring together people who
+                              understand before they
                               create. Our diverse team approaches <span
-                                class="no-underline  inner--element customized--word elementor-repeater-item-b638ee2" style="color: #000;">every
+                                class="no-underline  inner--element customized--word elementor-repeater-item-b638ee2"
+                                style="color: #000;">every
                                 challenge with compassion and curiosity, crafting thoughtful solutions rooted in genuine
                                 human insight.</span></p>
                           </div>
@@ -1572,9 +1814,11 @@
                         data-widget_type="petextwrapper.default">
                         <div class="elementor-widget-container">
                           <div class="text-wrapper pe--styled--object">
-                            <p class="no-margin hide-br-mobile" style="font-size: 18px;">We gather exceptional talent from across the globe,
+                            <p class="no-margin hide-br-mobile" style="font-size: 18px;">We gather exceptional talent
+                              from across the globe,
                               each committed to setting new standards of creativity and precision. <span
-                                class="no-underline  inner--element customized--word elementor-repeater-item-b638ee2" style="color: #000;">Together,
+                                class="no-underline  inner--element customized--word elementor-repeater-item-b638ee2"
+                                style="color: #000;">Together,
                                 we turn high expectations into meaningful, measurable results.</span></p>
                           </div>
                         </div>
@@ -1627,7 +1871,8 @@
                             class="no-underline  inner--element customized--word elementor-repeater-item-b638ee2">While
                             we don’t chase</span> accolades, they are proof of <span
                             class="no-underline  inner--element customized--word elementor-repeater-item-9d5533f">our
-                            dedication to</span> impact, quality, and innovation.</p>
+                            dedication to</span> impact, quality, and innovation.
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -1635,8 +1880,8 @@
               </div>
 
 
-              
-              
+
+
               <div class="elementor-element elementor-element-58a26744 e-flex e-con-boxed no e-con e-child"
                 data-id="58a26744" data-element_type="container" data-e-type="container">
                 <div class="e-con-inner">
@@ -1711,7 +1956,7 @@
                                 <div class="pe-testimonial pe--styled--object">
                                   <div class="pt-head pe--styled--object">
                                     <div class="pt-det"> Jean K <span class="pt-title">Founder, Northwood
-                                        Wellness</span></div> 
+                                        Wellness</span></div>
                                   </div>
                                   <div class="pt-content pe--styled--object">
                                     <p>“We came to Minimal Agency with a vague idea and left with a clear, elegant brand
@@ -1779,6 +2024,28 @@
             </div>
           </div>
         </div>
+
+
+        <section id="investment" class="investment-section">
+          <div class="investment-container">
+            <h2 class="section-title">Let’s Build a System That Actually Works</h2>
+            <p class="investment-subtitle">Tell us where you are and where you want to go.<br>We’ll help you bridge the gap.</p>
+
+            <div class="price-box">
+              <div class="price-label">Starting From</div>
+              <div class="price-value">€5,000<span>+</span></div>
+            </div>
+
+            <p class="investment-tailored">Every business has its own goals. We’ll tailor a solution that’s right for you.</p>
+
+            <a href="/contact/" class="proposal-btn">
+              <span>Start a Conversation</span>
+              <i class="material-icons">chat_bubble_outline</i>
+            </a>
+          </div>
+        </section>
+
+        
       </article>
     </main>
     <footer id="colophon" class="site-footer  footer--overlay">
@@ -1799,7 +2066,8 @@
                       class="no-underline  inner--element customized--word elementor-repeater-item-806b59e">SOMETHING</span>
                     <br> <span
                       class="no-underline  inner--element customized--word elementor-repeater-item-806b59e">GREAT</span>
-                    TOGETHER.</p>
+                    TOGETHER.
+                  </p>
                 </div>
               </div>
             </div>
@@ -1827,21 +2095,22 @@
                     <ul id="menu-mobile-menu-3" class="menu main-menu menu--vertical ">
                       <li
                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-15397">
-                        <a href="/" data-barba-prevent="all" class="pe--styled--object  text--anim--inner menu--link">Home</a></li>
+                        <a href="/" data-barba-prevent="all"
+                          class="pe--styled--object  text--anim--inner menu--link">Home</a>
+                      </li>
                       <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15392"><a
                           href="/works/" class="pe--styled--object  text--anim--inner menu--link">Works</a>
                       </li>
                       <li
                         class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-15362 current_page_item menu-item-15396">
                         <a href="/about/" aria-current="page"
-                          class="pe--styled--object  text--anim--inner menu--link">About</a></li>
+                          class="pe--styled--object  text--anim--inner menu--link">About</a>
+                      </li>
                       <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15394"><a
-                          href="/services/"
-                          class="pe--styled--object  text--anim--inner menu--link">Services</a></li>
+                          href="/services/" class="pe--styled--object  text--anim--inner menu--link">Services</a></li>
 
                       <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15395"><a
-                          href="/contact/"
-                          class="pe--styled--object  text--anim--inner menu--link">Contact</a></li>
+                          href="/contact/" class="pe--styled--object  text--anim--inner menu--link">Contact</a></li>
                     </ul>
                   </nav>
                 </div>
@@ -1855,9 +2124,9 @@
                 <div class="elementor-widget-container">
                   <div class="pe--button   button--simple hover--custom button-- " data-text-hover="none"
                     data-background-hover="none" data-icon-hover="slide-up-right">
-                    <div class="pe--button--wrapper"><a href="tel:%20+9298286008" rel="nofollow"
-                        class="pb--handle" data-cursor="true" data-cursor-type="default" data-cursor-text=""
-                        data-cursor-icon=""> <span class="pe--button--text pe--styled--object"> +9298286008
+                    <div class="pe--button--wrapper"><a href="tel:%20+9298286008" rel="nofollow" class="pb--handle"
+                        data-cursor="true" data-cursor-type="default" data-cursor-text="" data-cursor-icon=""> <span
+                          class="pe--button--text pe--styled--object"> +9298286008
                         </span> <span class="pe--button--icon pe--styled--object"> <span class="button--icon--main"><i
                               aria-hidden="true" class="material-icons md-arrow_outward"
                               data-md-icon="arrow_outward"></i></span> <span class="button--icon--hover"><i
@@ -1891,7 +2160,8 @@
                     <ul class="pe--list--wrapper">
                       <li data-index="1" class=" pe--list--item pe--hover--trigger
 pe--styled--object text--anim--inner"> <a data-cursor="true" data-cursor-type="default" data-cursor-text=""
-                          data-cursor-icon="" target="_blank" href="https://www.facebook.com/share/1CUAnXVT4t/?mibextid=wwXIfr"><span
+                          data-cursor-icon="" target="_blank"
+                          href="https://www.facebook.com/share/1CUAnXVT4t/?mibextid=wwXIfr"><span
                             class="list--icon pe--styled--object"> <span data-icon-hover="slide-up-right"
                               class="pe--icon--hover"> <span><i aria-hidden="true"
                                   class="material-icons md-arrow_outward" data-md-icon="arrow_outward"></i></span><span
@@ -1901,9 +2171,8 @@ pe--styled--object text--anim--inner"> <a data-cursor="true" data-cursor-type="d
                         </a></li>
                       <li data-index="2" class=" pe--list--item pe--hover--trigger
 pe--styled--object text--anim--inner"> <a data-cursor="true" data-cursor-type="default" data-cursor-text=""
-                          data-cursor-icon="" target="_blank" href="#"><span
-                            class="list--icon pe--styled--object"> <span data-icon-hover="slide-up-right"
-                              class="pe--icon--hover"> <span><i aria-hidden="true"
+                          data-cursor-icon="" target="_blank" href="#"><span class="list--icon pe--styled--object">
+                            <span data-icon-hover="slide-up-right" class="pe--icon--hover"> <span><i aria-hidden="true"
                                   class="material-icons md-arrow_outward" data-md-icon="arrow_outward"></i></span><span
                                 class="icon--hover--wrap"><i aria-hidden="true" class="material-icons md-arrow_outward"
                                   data-md-icon="arrow_outward"></i></span> </span> </span>
@@ -1911,9 +2180,8 @@ pe--styled--object text--anim--inner"> <a data-cursor="true" data-cursor-type="d
                         </a></li>
                       <li data-index="3" class=" pe--list--item pe--hover--trigger
 pe--styled--object text--anim--inner"> <a data-cursor="true" data-cursor-type="default" data-cursor-text=""
-                          data-cursor-icon="" target="_blank" href="#"><span
-                            class="list--icon pe--styled--object"> <span data-icon-hover="slide-up-right"
-                              class="pe--icon--hover"> <span><i aria-hidden="true"
+                          data-cursor-icon="" target="_blank" href="#"><span class="list--icon pe--styled--object">
+                            <span data-icon-hover="slide-up-right" class="pe--icon--hover"> <span><i aria-hidden="true"
                                   class="material-icons md-arrow_outward" data-md-icon="arrow_outward"></i></span><span
                                 class="icon--hover--wrap"><i aria-hidden="true" class="material-icons md-arrow_outward"
                                   data-md-icon="arrow_outward"></i></span> </span> </span>
@@ -1923,7 +2191,7 @@ pe--styled--object text--anim--inner"> <a data-cursor="true" data-cursor-type="d
                   </div>
                 </div>
               </div>
-              
+
               <div
                 class="elementor-element elementor-element-429e24 text--align--left text-stroke-no elementor-widget elementor-widget-petextwrapper"
                 data-id="429e24" data-element_type="widget" data-e-type="widget"
@@ -1931,7 +2199,8 @@ pe--styled--object text--anim--inner"> <a data-cursor="true" data-cursor-type="d
                 <div class="elementor-widget-container">
                   <div class="text-wrapper pe--styled--object">
 
-                  &copy; <script>document.write(new Date().getFullYear())</script> Digitactic. Designed with care ❤️
+                    &copy;
+                    <script>document.write(new Date().getFullYear())</script> Digitactic. Designed with care ❤️
                   </div>
                 </div>
               </div>
@@ -1983,24 +2252,3 @@ pe--styled--object text--anim--inner"> <a data-cursor="true" data-cursor-type="d
 </body>
 
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

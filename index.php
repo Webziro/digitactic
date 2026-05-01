@@ -463,7 +463,7 @@ function get_content($key, $conn, $fallback = '')
 <style>.site-branding, .site-logo, .site-logo a, .elementor-widget-pesitelogo { width: auto !important; max-width: none !important; min-width: max-content !important; overflow: visible !important; flex-shrink: 0 !important; } .site-branding .site-logo img, .site-branding .sticky-logo img, .main__logo { height: 75px !important; width: auto !important; max-width: none !important; max-height: none !important; object-fit: contain !important; }.pe--scroll--button i, .pe--scroll--button .pe--icon--caption { color: #000 !important; }
 .loader--caption { color: #000 !important; font-weight: bold !important; font-size: 15px !important; text-transform: uppercase !important; letter-spacing: 2px !important; }
 </style>
-<style id='loading-fix'>h1, h2, h3, h4, h5, h6, .elementor-heading-title, p, a { color: #fff !important; } .customized--word, .customized--word span, .customized--word *, .elementor-element-7ebdfb70 p, .elementor-element-7ebdfb70 span, .elementor-element-7ebdfb70 i, .md-language { color: #D6A94E !important; } .elementor-element-4fd7a402 .elementor-repeater-item-806b59e, .elementor-element-4fd7a402 .elementor-repeater-item-806b59e span, .elementor-element-4fd7a402 .customized--word, .elementor-element-4fd7a402 .customized--word span { color: #D6A94E !important; } .page--loader--block, .page--transition--block, .container--bg, .page--loader, .page--transitions { background-color: #e5d3a1 !important; }</style>
+<style id='loading-fix'>h1, h2, h3, h4, h5, h6, .elementor-heading-title, p, a { color: #fff !important; } .investment-section .proposal-btn, .investment-section .proposal-btn span, .investment-section .proposal-btn i { color: #000 !important; } .investment-section .proposal-btn:hover, .investment-section .proposal-btn:hover span, .investment-section .proposal-btn:hover i { color: #000 !important; } .customized--word, .customized--word span, .customized--word *, .elementor-element-7ebdfb70 p, .elementor-element-7ebdfb70 span, .elementor-element-7ebdfb70 i, .md-language { color: #D6A94E !important; } .elementor-element-4fd7a402 .elementor-repeater-item-806b59e, .elementor-element-4fd7a402 .elementor-repeater-item-806b59e span, .elementor-element-4fd7a402 .customized--word, .elementor-element-4fd7a402 .customized--word span { color: #D6A94E !important; } .page--loader--block, .page--transition--block, .container--bg, .page--loader, .page--transitions { background-color: #e5d3a1 !important; }</style>
 </head>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-G8QKS6RS1E"></script>
 <script>window.dataLayer = window.dataLayer || [];
@@ -2236,22 +2236,20 @@ function get_content($key, $conn, $fallback = '')
             <!-- Investment Section -->
             <section id="investment" class="investment-section">
                 <div class="investment-container">
-                    <p class="section-subheading" style="font-size: 14px !important; color: #D6A94E !important; text-transform: uppercase !important; margin-bottom: 20px; letter-spacing: 2px;">Value & Results</p>
-                    <h2 class="section-title">Investment</h2>
-                    
-                    <p class="investment-subtitle">We work with businesses ready to invest in long-term growth, not short-term fixes.</p>
+                    <h2 class="section-title">Let’s Build a System That Actually Works</h2>
+                    <p class="investment-subtitle">Tell us where you are and where you want to go.<br>We’ll help you bridge the gap.</p>
                     
                     <div class="price-box">
-                        <p class="price-label">Projects typically begin at:</p>
-                        <h3 class="price-value">$5,000<span>+</span></h3>
+                        <div class="price-label">Starting From</div>
+                        <div class="price-value">€5,000<span>+</span></div>
                     </div>
                     
-                    <p class="investment-tailored">Each engagement is tailored based on scope, complexity, and goals.</p>
+                    <p class="investment-tailored">Every business has its own goals. We’ll tailor a solution that’s right for you.</p>
                     
                     <div class="investment-cta">
                         <a href="/contact/" class="proposal-btn">
-                            <span>Request a Proposal</span>
-                            <i class="material-icons">arrow_forward</i>
+                            <span>Start a Conversation</span>
+                            <i class="material-icons">chat_bubble_outline</i>
                         </a>
                     </div>
                 </div>
@@ -2344,7 +2342,6 @@ function get_content($key, $conn, $fallback = '')
                 display: inline-flex;
                 align-items: center;
                 background: #D6A94E;
-                color: #000 !important;
                 padding: 24px 60px;
                 border-radius: 100px;
                 font-weight: 700;
@@ -2360,6 +2357,17 @@ function get_content($key, $conn, $fallback = '')
                 transform: translateY(-5px);
                 box-shadow: 0 20px 40px rgba(214, 169, 78, 0.4);
                 background: #fff;
+            }
+
+            .proposal-btn, 
+            .proposal-btn span, 
+            .proposal-btn i {
+                color: #000 !important;
+            }
+
+            .proposal-btn:hover, 
+            .proposal-btn:hover span, 
+            .proposal-btn:hover i {
                 color: #000 !important;
             }
 
@@ -2394,6 +2402,8 @@ function get_content($key, $conn, $fallback = '')
                 }
             }
             </style>
+
+            
             <div class="elementor-element elementor-element-418cb892 e-con-full e-flex no e-con e-parent"
               data-id="418cb892" data-element_type="container" data-e-type="container" id="impact">
               <div class="elementor-element elementor-element-44f451cb e-con-full e-flex no e-con e-child"
